@@ -1,0 +1,17 @@
+{
+  "name": "outdooractivescrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "devis12",
+  "license": "ISC",
+  "dependencies": {
+    "he": "^1.2.0",
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1",
+    "replaceall": "^0.1.6"
+  }
+}
