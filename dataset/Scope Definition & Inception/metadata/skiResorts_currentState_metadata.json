@@ -1,0 +1,8 @@
+[
+{"name":contains the name of the ski resort ,
+ "open/closed": has the information if the resort is open or not, 
+ "open km": indicates the number of available kilometers,
+ "snow depth": indicates how deep the snow is in centimeters, 
+ "open lifts": contains the number of open lifts},
+
+]
