@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 21, "description": "Testo...", "ref": "E310B", "competenza": "SEZ. SAT CAVALESE", "name": "E310B ", "difficolta": "E", "loc_inizio": "LAGO CADINELLO pr. PASSO DEL MÀNGHEN", "loc_fine": "QUOTA 1991", "quota_iniz": 2012, "quota_fine": 1991, "quota_min": 1980, "quota_max": 2017, "distance": "400 m", "lun_inclin": 420, "t_andata": "00:10:00", "t_ritorno": "00:10:00", "gr_mont": "LAGORAI \/ Costalta - Croce", "comuni_toc": "CASTELLO-MOLINA DI FIEMME, TELVE", "url_gpx": "sentieri.sat.tn.it\/gpx-sentieri?numero=E310B", "url_scheda": "sentieri.sat.tn.it\/schede-sentieri?numero=E310B", "url_foto": "sentieri.sat.tn.it\/imgviewer?numero=E310B" }, "geometry": { "type": "LineString", "coordinates": [ [ 11.439505855593868, 46.174192188967346, 2011.999945528805256 ], [ 11.438933274678027, 46.174099828999431, 2016.999945529736578 ], [ 11.437824664358967, 46.174170291738868, 2005.999945528805256 ], [ 11.436444121393642, 46.173634066370987, 1996.999945528805256 ], [ 11.435811319572492, 46.172826363555572, 1979.999945530667901 ], [ 11.435953379361706, 46.172616775649381, 1990.999945531599224 ] ] } }
+]
+}

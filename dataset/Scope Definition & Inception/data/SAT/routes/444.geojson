@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 444, "description": "Bretella di collegamento tra Malga Crocefisso ed il sentiero 615 che risale il vallone della Valacia.\r\n\r\nIl percorso inizia in Val de Sen Nicolò, nei pressi del Pènt di Serai, poco prima di Malga Crocefisso, e risale il ripido bosco del Boresch entrando nel solco del Ruf de Valacia fino al Coston de Valacia, dove si collega con il sentiero 615 diretto al Bivacco \"Donato Zeni\".\r\n\r\n\r\n-------------------- © SAT 20151225 --------------------", "ref": "E615B", "competenza": "SEZ. SAT POZZA DI FASSA", "name": "E615B ", "difficolta": "E", "loc_inizio": "pr. PÈNT DE SERAI", "loc_fine": "QUOTA 1513", "quota_iniz": 1499, "quota_fine": 1513, "quota_min": 1499, "quota_max": 1514, "distance": "190 m", "lun_inclin": 190, "t_andata": "00:05:00", "t_ritorno": "00:05:00", "gr_mont": "MARMOLADA \/ Monzoni - Valacia", "comuni_toc": "SAN GIOVANNI DI FASSA-SÈN JAN", "url_gpx": "sentieri.sat.tn.it\/gpx-sentieri?numero=E615B", "url_scheda": "sentieri.sat.tn.it\/schede-sentieri?numero=E615B", "url_foto": "sentieri.sat.tn.it\/imgviewer?numero=E615B" }, "geometry": { "type": "LineString", "coordinates": [ [ 11.716057071597151, 46.416754398717785, 1498.999945084564388 ], [ 11.715625675774017, 46.41623823050822, 1505.99994508549571 ], [ 11.714100944797623, 46.416314593360141, 1512.999945083633065 ] ] } }
+]
+}

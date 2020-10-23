@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 5, "description": "Breve raccordo per collegare in quota, sul fianco settentrionale del Monte Testo, il sentiero 102A con la Bocchetta delle Corde.\r\n\r\n\r\n-------------------- © SAT 20120229 --------------------", "ref": "E102B", "competenza": "SEZ. SAT ROVERETO", "name": "E102B ", "difficolta": "E", "loc_inizio": "QUOTA 1913 DEL MONTE TESTO", "loc_fine": "QUOTA 1889", "quota_iniz": 1913, "quota_fine": 1889, "quota_min": 1889, "quota_max": 1913, "distance": "450 m", "lun_inclin": 460, "t_andata": "00:20:00", "t_ritorno": "00:20:00", "gr_mont": "PASUBIO - COLSANTO", "comuni_toc": "TRAMBILENO", "url_gpx": "sentieri.sat.tn.it\/gpx-sentieri?numero=E102B", "url_scheda": "sentieri.sat.tn.it\/schede-sentieri?numero=E102B", "url_foto": "sentieri.sat.tn.it\/imgviewer?numero=E102B" }, "geometry": { "type": "LineString", "coordinates": [ [ 11.143138470264459, 45.820745234123692, 1912.999946175143123 ], [ 11.145386112335887, 45.819776313052934, 1890.999946175143123 ], [ 11.145369814629873, 45.819576621362188, 1892.999946177005768 ], [ 11.145742401176797, 45.819313099091666, 1888.99994617793709 ], [ 11.146172349198004, 45.819302860408925, 1892.99994617793709 ], [ 11.146528089393183, 45.818972956165666, 1891.99994617793709 ], [ 11.14695905684153, 45.818841994575813, 1890.999946177005768 ], [ 11.147336180538428, 45.818301787044653, 1888.999946178868413 ] ] } }
+]
+}
