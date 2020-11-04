@@ -1,0 +1,53 @@
+{
+"Dataset identifier" : "p_TN: d8948251-9e9b-4aa5-9ab1-d13e37cd4320"
+"Themes of the dataset" : "Economy and finance, Regions and cities"
+"Dataset Publisher": {
+			"Name": "Tourism and Sport Service",
+			"IPA / VAT Code": "294WVJ"
+			}
+"Release date":	"28-02-2014"
+"Date of modification":	"25-10-2017"
+"Geographic coverage":	"Trento"
+"URI of GeoNames":	"https://www.geonames.org/3165241"
+"Languages ​​of the dataset":	"Italian"
+"Holder":{ "name": "Autonomous Province of Trento",
+				"IPA / VAT code": "p_TN"}
+"Author":{	"Name": "Tourism and Sport Service",
+		"IPA / VAT": "294WVJ"
+}
+"copyright":"The data included in this document is from https://dati.trentino.it/"
+"timestamp":"2020-10-23T19:30:02Z",
+"fields" : {
+		"data-inizio-validita":	"Starting date of the published price",
+		"data-fine-validita":	"Expiry date of the published price",
+		"denominazione":	"Name of the municipality",
+		"denominazione-ente":	"Alternative name of the municipality",
+		"denominazione-ente-annuario:"	Responsible touristic agency",
+		"altitudine:"	Altitude",
+		"cap:"	Postal code",
+		"id-localita:"	Internal ID of the STU system",
+		"numero-unita:"	Number of room available",
+		"numero-posti-letto:"	Number of bed available",
+		"tipologia-alberghiera:"	Type of facility",
+		"tipologia-servizio:"	Type of boarding  (e.g.full board, only breakfast etc.)",
+		"recapito-telefono:"	Phone number",
+		"recapito-fax:"	Fax number",
+		"recapito-email:"	email",
+		"recapito-www	:"website",
+		"id-EsercizioRicettivo:"	Internal ID of the STU system",
+		"p-iva:"	VAT number",
+		"comune:"	Municipality",
+		"frazione:"	Hamlet",
+		"indirizzo	:"Address",
+		"livello-classifica	:"Ranking (when available)",
+		"prezzo-max-letto-aggiunto:"	Maximum price for extra bed",
+		"struttura-chiusa:"	Status, open=false/seasonal closure=true",
+		"tipologia-unita:"	Type of accommodation (e.g. room with a private bathroom)",
+		"posti-letto:"	Bed place available for each type of accomodation,
+		"prezzo:"	Price",
+		"codice:"	Internal ID of the STU system",
+		"descrizione:"	Description of the available service",
+		"prezzo-max-consumazione-pasto:"	Maximum price for the meal",
+
+}
+}

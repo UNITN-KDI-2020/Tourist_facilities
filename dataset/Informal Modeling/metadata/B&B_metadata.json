@@ -1,0 +1,69 @@
+{
+"Dataset identifier" : "p_TN: bf341ac4-aa6e-4c7c-9bef-90d11a70e6ac"
+"Themes of the dataset" : "Economy and finance,Population and society"
+"Dataset Publisher": {
+			"Name": "Tourism and Sport Service",
+			"IPA / VAT Code": "294WVJ"
+			}
+"Release date":	"28-02-2014"
+"Date of modification":	"28-02-2014"
+"Geographic coverage":	"Trento"
+"URI of GeoNames":	"https://www.geonames.org/3165241"
+"Languages ​​of the dataset":	"Italian"
+"Holder":{ "name": "Autonomous Province of Trento",
+				"IPA / VAT code": "p_TN"}
+"Author":{	"Name": "Tourism and Sport Service",
+		"IPA / VAT": "294WVJ"
+}
+"copyright":"The data included in this document is from https://dati.trentino.it/"
+"timestamp":"2020-10-23T19:30:02Z",
+"fields" : {
+		"data-inizio-validita": "Starting date of the published price",
+		"data-fine-validita": "Expiry date of the published price",
+		"data-ultimo-aggiornamento": "Date of the last update",
+		"denominazione-Localita-Turistica": "Name of the municipality",
+		"denominazione-annuario-Localita-Turistica": "Alternative name of the municipality",
+		"denominazione-ente-annuario-Localita-Turistica": "Responsible touristic agency",
+		"altitudine-Localita-Turistica": "Altitude",
+		"cap-Localita-Turistica": "Postal code",
+		"denominazione-Localita": "Name of the municipality",
+		"altitudine-Localita": "Altitude",
+		"id-localita": "Internal ID of the STU system",
+		"cap-Localita": "Postal code",
+		"tipologia-extraalberghiera": "Type of facility (B&B, Camping, Hostel etc.)",
+		"recapito-telefono": "Phone number",
+		"recapito-email": "Fax number",
+		"recapito-www": "email",
+		"periodo-apertura": "website",
+		"id-EsercizioRicettivo": "Internal ID of the STU system",
+		"p-iva": "VAT number",
+		"struttura-sospesa": "Status  (open=false/close=true)",
+		"denominazione": "Name of the facility",
+		"comune": "Municipality",
+		"frazione": "Hamlet",
+		"indirizzo": "Address",
+		"livello-classifica": "Ranking (when available)",
+		"prezzo-max-letto-aggiunto": "Maximum price for extra bed",
+		"prezzo-max-consumazione-pasto": "Maximum price for the meal",
+		"prezzo-max-colazione": "Maximum price for the breakfast",
+		"struttura-chiusa": "Status, open=false/seasonal closure=true",
+		"numero-camere": "Room available",
+		"numero-posti-letto": "Bed place available",
+		"numero-bagni-comuni": "Common bathroom",
+		"numero-posti": "Bed place available for each type of accomodation",
+		"tipologia-unita": "Type of accommodation (e.g. room with a private bathroom)",
+		"prezzo": "Price",
+		"tipo-servizio": "Type of service",
+		"recapito-fax": "Fax number",
+		"codice": "Internal ID of the STU system for each service",
+		"descrizione": "Description of the available service",
+		"numero-lavelli": "Number of sink",
+		"numero-wc": "Number of toilet",
+		"numero-docce": "Number of shower",
+		"numero-piazzole": "Number of campsite",
+		"allestimenti-stabili": "Number of stable facilities (e.g. Bungalow)",
+		"allestimenti-mobili": "Number of mobile facilities (e.g. Caravan)",
+		"capacita-ricettiva": "Number of places available based of the square meter of the camping site"
+
+}
+}
