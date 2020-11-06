@@ -1,0 +1,33 @@
+{
+	"creationTime": "",
+	"lastModifiedTime": "",
+	"sourceUrl": "",
+	"copyright": "",
+
+	"fields": {
+		"blueSlopeLength": {
+			"type": "int",
+			"description": ""
+		},
+		"blueSlopeAvailable": {
+			"type": "int",
+			"description": ""
+		},
+		"redSlopeLength": {
+			"type": "int",
+			"description": ""
+		},
+		"redSlopeAvailable": {
+			"type": "int",
+			"description": ""
+		},
+		"blackSlopeLength": {
+			"type": "int",
+			"description": ""
+		},
+		"blackSlopeAvailable": {
+			"type": "int",
+			"description": ""
+		}
+	}
+}

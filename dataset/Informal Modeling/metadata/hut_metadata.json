@@ -1,0 +1,79 @@
+{
+	"creationTime": "",
+	"lastModifiedTime": "",
+	"sourceUrl": "",
+	"copyright": "",
+
+	"fields": {
+		"hut_type": {
+			"type": "String",
+			"description": ""
+		},
+		"information": {
+			"type": "array",
+			"description": ""
+		},
+		"landlordinformation": {
+			"type": "Landlord",
+			"description": "",
+			"fields": {
+				"name": {
+					"type": "String",
+					"description": ""
+				},
+				"contact": {
+					"type": "ContactInformation",
+					"description": "",
+					"fields": {
+						"name": {
+							"type": "String",
+							"description": ""
+						},
+						"phone": {
+							"type": "String",
+							"description": ""
+						},
+						"website": {
+							"type": "String",
+							"description": ""
+						},
+						"email": {
+							"type": "String",
+							"description": ""
+						}
+					}
+				},
+				"address": {
+					"type": "Address",
+					"description": "",
+					"fields": {
+						"city": {
+							"type": "String",
+							"description": ""
+						},
+						"cap": {
+							"type": "String",
+							"description": ""
+						},
+						"province": {
+							"type": "String",
+							"description": ""
+						},
+						"country": {
+							"type": "String",
+							"description": ""
+						},
+						"streetName": {
+							"type": "String",
+							"description": ""
+						},
+						"civicNumber": {
+							"type": "String",
+							"description": ""
+						}
+					}
+				}
+			}
+		}
+	}
+}
