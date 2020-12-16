@@ -1,0 +1,300 @@
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N102 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "communalBunks" .
+_:etype_Cabin_GID-157851_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N100 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "9" .
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Cabin_GID-157851_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N100 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N102 .
+
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N104 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "winterRooms" .
+_:etype_Cabin_GID-157851_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N105 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N104 .
+_:etype_Cabin_GID-157851_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N105 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "9" .
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+
+_:etype_Cabin_GID-157851_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N108 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N107 .
+_:etype_Cabin_GID-157851_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N108 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "9" .
+_:etype_Cabin_GID-157851_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N107 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N110 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "twinRooms" .
+_:etype_Cabin_GID-157851_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N111 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "9" .
+_:etype_Cabin_GID-157851_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N111 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N110 .
+_:etype_Cabin_GID-157851_0ade7c2cf97f75d009975f4d720d1fa6c19f4897_N111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+
+_:etype_Cabin_GID-157851_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Cabin_GID-157851_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N114 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "10" .
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N114 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N113 .
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N113 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "communalBunks" .
+
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N116 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "winterRooms" .
+_:etype_Cabin_GID-157851_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N117 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N116 .
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Cabin_GID-157851_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N117 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "10" .
+
+_:etype_Cabin_GID-157851_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Cabin_GID-157851_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N120 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N119 .
+_:etype_Cabin_GID-157851_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N120 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "10" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N119 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+
+_:etype_Cabin_GID-157851_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N123 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "10" .
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N122 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "twinRooms" .
+_:etype_Cabin_GID-157851_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N123 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N122 .
+_:etype_Cabin_GID-157851_b1d5781111d84f7b3fe45a0852e59758cd7a87e5_N123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+
+_:etype_Cabin_GID-157851_17ba0791499db908433b80f37c5fbc89b870084b_N126 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "11" .
+_:etype_Cabin_GID-157851_17ba0791499db908433b80f37c5fbc89b870084b_N126 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N125 .
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N125 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "communalBunks" .
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_17ba0791499db908433b80f37c5fbc89b870084b_N126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+
+_:etype_Cabin_GID-157851_17ba0791499db908433b80f37c5fbc89b870084b_N129 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "11" .
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_17ba0791499db908433b80f37c5fbc89b870084b_N129 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N128 .
+_:etype_Cabin_GID-157851_17ba0791499db908433b80f37c5fbc89b870084b_N129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N128 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "winterRooms" .
+
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N131 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_17ba0791499db908433b80f37c5fbc89b870084b_N132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_17ba0791499db908433b80f37c5fbc89b870084b_N132 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N131 .
+_:etype_Cabin_GID-157851_17ba0791499db908433b80f37c5fbc89b870084b_N132 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "11" .
+
+_:etype_Cabin_GID-157851_17ba0791499db908433b80f37c5fbc89b870084b_N135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Cabin_GID-157851_17ba0791499db908433b80f37c5fbc89b870084b_N135 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "11" .
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N134 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "twinRooms" .
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_17ba0791499db908433b80f37c5fbc89b870084b_N135 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N134 .
+
+_:etype_Cabin_GID-157851_7b52009b64fd0a2a49e6d8a939753077792b0554_N138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_7b52009b64fd0a2a49e6d8a939753077792b0554_N138 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "12" .
+_:etype_Cabin_GID-157851_7b52009b64fd0a2a49e6d8a939753077792b0554_N138 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N137 .
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N137 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "communalBunks" .
+
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N140 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "winterRooms" .
+_:etype_Cabin_GID-157851_7b52009b64fd0a2a49e6d8a939753077792b0554_N141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_7b52009b64fd0a2a49e6d8a939753077792b0554_N141 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N140 .
+_:etype_Cabin_GID-157851_7b52009b64fd0a2a49e6d8a939753077792b0554_N141 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "12" .
+
+_:etype_Cabin_GID-157851_7b52009b64fd0a2a49e6d8a939753077792b0554_N144 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "12" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N143 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_7b52009b64fd0a2a49e6d8a939753077792b0554_N144 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N143 .
+_:etype_Cabin_GID-157851_7b52009b64fd0a2a49e6d8a939753077792b0554_N144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+
+_:etype_Cabin_GID-157851_7b52009b64fd0a2a49e6d8a939753077792b0554_N147 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N146 .
+_:etype_Cabin_GID-157851_7b52009b64fd0a2a49e6d8a939753077792b0554_N147 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "12" .
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N146 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "twinRooms" .
+_:etype_Cabin_GID-157851_7b52009b64fd0a2a49e6d8a939753077792b0554_N147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N149 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_bd307a3ec329e10a2cff8fb87480823da114f8f4_N150 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "13" .
+_:etype_Cabin_GID-157851_bd307a3ec329e10a2cff8fb87480823da114f8f4_N150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_bd307a3ec329e10a2cff8fb87480823da114f8f4_N150 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N149 .
+
+_:etype_Cabin_GID-157851_fa35e192121eabf3dabf9f5ea6abdbcbc107ac3b_N153 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N152 .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_fa35e192121eabf3dabf9f5ea6abdbcbc107ac3b_N153 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "14" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N152 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_fa35e192121eabf3dabf9f5ea6abdbcbc107ac3b_N153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+
+_:etype_Cabin_GID-157851_f1abd670358e036c31296e66b3b66c382ac00812_N156 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "15" .
+_:etype_Cabin_GID-157851_f1abd670358e036c31296e66b3b66c382ac00812_N156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N155 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_f1abd670358e036c31296e66b3b66c382ac00812_N156 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N155 .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+
+_:etype_Cabin_GID-157851_1574bddb75c78a6fd2251d61e2993b5146201319_N159 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "16" .
+_:etype_Cabin_GID-157851_1574bddb75c78a6fd2251d61e2993b5146201319_N159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N158 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_1574bddb75c78a6fd2251d61e2993b5146201319_N159 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N158 .
+
+_:etype_Cabin_GID-157851_0716d9708d321ffb6a00818614779e779925365c_N162 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N161 .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N161 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_0716d9708d321ffb6a00818614779e779925365c_N162 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "17" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_0716d9708d321ffb6a00818614779e779925365c_N162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_9e6a55b6b4563e652a23be9d623ca5055c356940_N165 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "18" .
+_:etype_Cabin_GID-157851_9e6a55b6b4563e652a23be9d623ca5055c356940_N165 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N164 .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N164 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_9e6a55b6b4563e652a23be9d623ca5055c356940_N165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+
+_:etype_Cabin_GID-157851_b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f_N168 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N167 .
+_:etype_Cabin_GID-157851_b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f_N168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Cabin_GID-157851_b3f0c7f6bb763af1be91d9e74eabfeb199dc1f1f_N168 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "19" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N167 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+
+_:etype_Cabin_GID-157851_91032ad7bbcb6cf72875e8e8207dcfba80173f7c_N171 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "20" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N170 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_91032ad7bbcb6cf72875e8e8207dcfba80173f7c_N171 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N170 .
+_:etype_Cabin_GID-157851_91032ad7bbcb6cf72875e8e8207dcfba80173f7c_N171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+
+_:etype_Cabin_GID-157851_472b07b9fcf2c2451e8781e944bf5f77cd8457c8_N174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N173 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_472b07b9fcf2c2451e8781e944bf5f77cd8457c8_N174 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N173 .
+_:etype_Cabin_GID-157851_472b07b9fcf2c2451e8781e944bf5f77cd8457c8_N174 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "21" .
+
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N176 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_12c6fc06c99a462375eeb3f43dfd832b08ca9e17_N177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Cabin_GID-157851_12c6fc06c99a462375eeb3f43dfd832b08ca9e17_N177 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "22" .
+_:etype_Cabin_GID-157851_12c6fc06c99a462375eeb3f43dfd832b08ca9e17_N177 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N176 .
+
+_:etype_Cabin_GID-157851_d435a6cdd786300dff204ee7c2ef942d3e9034e2_N180 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "23" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N179 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_d435a6cdd786300dff204ee7c2ef942d3e9034e2_N180 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N179 .
+_:etype_Cabin_GID-157851_d435a6cdd786300dff204ee7c2ef942d3e9034e2_N180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_4d134bc072212ace2df385dae143139da74ec0ef_N183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Cabin_GID-157851_4d134bc072212ace2df385dae143139da74ec0ef_N183 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "24" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N182 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_4d134bc072212ace2df385dae143139da74ec0ef_N183 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N182 .
+
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_f6e1126cedebf23e1463aee73f9df08783640400_N186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N185 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_f6e1126cedebf23e1463aee73f9df08783640400_N186 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "25" .
+_:etype_Cabin_GID-157851_f6e1126cedebf23e1463aee73f9df08783640400_N186 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N185 .
+
+_:etype_Cabin_GID-157851_887309d048beef83ad3eabf2a79a64a389ab1c9f_N189 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "26" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N188 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_887309d048beef83ad3eabf2a79a64a389ab1c9f_N189 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N188 .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_887309d048beef83ad3eabf2a79a64a389ab1c9f_N189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_bc33ea4e26e5e1af1408321416956113a4658763_N192 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N191 .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N191 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_bc33ea4e26e5e1af1408321416956113a4658763_N192 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "27" .
+_:etype_Cabin_GID-157851_bc33ea4e26e5e1af1408321416956113a4658763_N192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+
+_:etype_Cabin_GID-157851_0a57cb53ba59c46fc4b692527a38a87c78d84028_N195 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N194 .
+_:etype_Cabin_GID-157851_0a57cb53ba59c46fc4b692527a38a87c78d84028_N195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N194 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_0a57cb53ba59c46fc4b692527a38a87c78d84028_N195 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "28" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+
+_:etype_Cabin_GID-157851_7719a1c782a1ba91c031a682a0a2f8658209adbf_N198 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N197 .
+_:etype_Cabin_GID-157851_7719a1c782a1ba91c031a682a0a2f8658209adbf_N198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_7719a1c782a1ba91c031a682a0a2f8658209adbf_N198 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "29" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N197 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+
+_:etype_Cabin_GID-157851_22d200f8670dbdb3e253a90eee5098477c95c23d_N201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N200 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_22d200f8670dbdb3e253a90eee5098477c95c23d_N201 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "30" .
+_:etype_Cabin_GID-157851_22d200f8670dbdb3e253a90eee5098477c95c23d_N201 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N200 .
+
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N203 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_632667547e7cd3e0466547863e1207a8c0c0c549_N204 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N203 .
+_:etype_Cabin_GID-157851_632667547e7cd3e0466547863e1207a8c0c0c549_N204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Cabin_GID-157851_632667547e7cd3e0466547863e1207a8c0c0c549_N204 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "31" .
+
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N206 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_cb7a1d775e800fd1ee4049f7dca9e041eb9ba083_N207 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "37" .
+_:etype_Cabin_GID-157851_cb7a1d775e800fd1ee4049f7dca9e041eb9ba083_N207 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N206 .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N206 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_cb7a1d775e800fd1ee4049f7dca9e041eb9ba083_N207 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N209 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "communalBunks" .
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N209 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_ca3512f4dfa95a03169c5a670a4c91a19b3077b4_N210 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N209 .
+_:etype_Cabin_GID-157851_ca3512f4dfa95a03169c5a670a4c91a19b3077b4_N210 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "39" .
+_:etype_Cabin_GID-157851_ca3512f4dfa95a03169c5a670a4c91a19b3077b4_N210 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+
+_:etype_Cabin_GID-157851_ca3512f4dfa95a03169c5a670a4c91a19b3077b4_N213 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N212 .
+_:etype_Cabin_GID-157851_ca3512f4dfa95a03169c5a670a4c91a19b3077b4_N213 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "39" .
+_:etype_Cabin_GID-157851_ca3512f4dfa95a03169c5a670a4c91a19b3077b4_N213 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N212 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N212 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "winterRooms" .
+
+_:etype_Cabin_GID-157851_ca3512f4dfa95a03169c5a670a4c91a19b3077b4_N216 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N215 .
+_:etype_Cabin_GID-157851_ca3512f4dfa95a03169c5a670a4c91a19b3077b4_N216 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "39" .
+_:etype_Cabin_GID-157851_ca3512f4dfa95a03169c5a670a4c91a19b3077b4_N216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N215 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N215 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N218 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N218 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "twinRooms" .
+_:etype_Cabin_GID-157851_ca3512f4dfa95a03169c5a670a4c91a19b3077b4_N219 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Cabin_GID-157851_ca3512f4dfa95a03169c5a670a4c91a19b3077b4_N219 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "39" .
+_:etype_Cabin_GID-157851_ca3512f4dfa95a03169c5a670a4c91a19b3077b4_N219 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N218 .
+
+_:etype_Cabin_GID-157851_af3e133428b9e25c55bc59fe534248e6a0c0f17b_N222 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N221 .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N221 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N221 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_af3e133428b9e25c55bc59fe534248e6a0c0f17b_N222 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Cabin_GID-157851_af3e133428b9e25c55bc59fe534248e6a0c0f17b_N222 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "40" .
+
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_761f22b2c1593d0bb87e0b606f990ba4974706de_N225 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "41" .
+_:etype_Cabin_GID-157851_761f22b2c1593d0bb87e0b606f990ba4974706de_N225 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N224 .
+_:etype_Cabin_GID-157851_761f22b2c1593d0bb87e0b606f990ba4974706de_N225 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N224 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+
+_:etype_Cabin_GID-157851_fe2ef495a1152561572949784c16bf23abb28057_N228 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "46" .
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N227 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "communalBunks" .
+_:etype_Cabin_GID-157851_fe2ef495a1152561572949784c16bf23abb28057_N228 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N227 .
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_fe2ef495a1152561572949784c16bf23abb28057_N228 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+
+_:etype_Cabin_GID-157851_fe2ef495a1152561572949784c16bf23abb28057_N231 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Cabin_GID-157851_fe2ef495a1152561572949784c16bf23abb28057_N231 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "46" .
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N230 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "winterRooms" .
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_fe2ef495a1152561572949784c16bf23abb28057_N231 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N230 .
+
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N233 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_fe2ef495a1152561572949784c16bf23abb28057_N234 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N233 .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N233 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_fe2ef495a1152561572949784c16bf23abb28057_N234 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Cabin_GID-157851_fe2ef495a1152561572949784c16bf23abb28057_N234 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "46" .
+
+_:etype_Cabin_GID-157851_fe2ef495a1152561572949784c16bf23abb28057_N237 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N236 .
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N236 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N236 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "twinRooms" .
+_:etype_Cabin_GID-157851_fe2ef495a1152561572949784c16bf23abb28057_N237 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "46" .
+_:etype_Cabin_GID-157851_fe2ef495a1152561572949784c16bf23abb28057_N237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+
+_:etype_Cabin_GID-157851_2e01e17467891f7c933dbaa00e1459d23db3fe4f_N240 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Cabin_GID-157851_2e01e17467891f7c933dbaa00e1459d23db3fe4f_N240 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N239 .
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N239 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_2e01e17467891f7c933dbaa00e1459d23db3fe4f_N240 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "49" .
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N239 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "communalBunks" .
+
+_:etype_Cabin_GID-157851_2e01e17467891f7c933dbaa00e1459d23db3fe4f_N243 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N242 .
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N242 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_2e01e17467891f7c933dbaa00e1459d23db3fe4f_N243 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N242 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "winterRooms" .
+_:etype_Cabin_GID-157851_2e01e17467891f7c933dbaa00e1459d23db3fe4f_N243 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "49" .
+
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N245 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Cabin_GID-157851_2e01e17467891f7c933dbaa00e1459d23db3fe4f_N246 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N245 .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Cabin_GID-157851_2e01e17467891f7c933dbaa00e1459d23db3fe4f_N246 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "49" .
+_:etype_Cabin_GID-157851_2e01e17467891f7c933dbaa00e1459d23db3fe4f_N246 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N248 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N248 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "twinRooms" .
+_:etype_Cabin_GID-157851_2e01e17467891f7c933dbaa00e1459d23db3fe4f_N249 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N248 .
+_:etype_Cabin_GID-157851_2e01e17467891f7c933dbaa00e1459d23db3fe4f_N249 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "49" .
+_:etype_Cabin_GID-157851_2e01e17467891f7c933dbaa00e1459d23db3fe4f_N249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Cabin_GID-15785> .
+

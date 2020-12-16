@@ -1,0 +1,308 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix etype: <http://knowdive.disi.unitn.it/etype#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix karma: <http://isi.edu/integration/karma/ontologies/model/current#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1eplp6natx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "50_outdooractive_room_options_cabin.json" ;
+	km-dev:modelPublicationTime "1608122588509"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"roomOptionName\"}],[{\"columnName\":\"idHut\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"roomOptionName\"}],[{\"columnName\":\"idHut\"}]]" ;
+	km-dev:hasModelLabel "50_outdooractive_room_options_cabin.json" ;
+	km-dev:hasBaseURI "http://knowdive.disi.unitn.it/ukc" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://knowdive.disi.unitn.it/ukc\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"idHut\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Cabin_GID-15785\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Cabin_GID-157851\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012\",
+                    \"DomainLabel\": \"etype:Cabin_GID-157851 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"idHut\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"idHut\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"roomOptionName\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Room_option_GID-120048\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Room_option_GID-1200481\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048\",
+                    \"DomainLabel\": \"etype:Room_option_GID-1200481 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"roomOptionName\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"roomOptionName\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Room_option_GID-1200481\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Room_option_GID-120048\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Cabin_GID-157851\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Cabin_GID-15785\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_f2e22f5f-e539-4d99-9695-b347c17c1417 a rr:TriplesMap .
+
+_:node1eplp6natx1 km-dev:hasTriplesMap km-dev:TriplesMap_f2e22f5f-e539-4d99-9695-b347c17c1417 .
+
+km-dev:TriplesMap_f2e22f5f-e539-4d99-9695-b347c17c1417 km-dev:isPartOfMapping _:node1eplp6natx1 .
+
+_:node1eplp6natx2 rr:tableName "50_outdooractive_room_options_cabin.json" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1eplp6natx1 .
+
+_:node1eplp6natx1 km-dev:hasLogicalTable _:node1eplp6natx2 .
+
+km-dev:TriplesMap_f2e22f5f-e539-4d99-9695-b347c17c1417 rr:logicalTable _:node1eplp6natx2 ;
+	rr:subjectMap _:node1eplp6natx3 .
+
+_:node1eplp6natx1 km-dev:hasSubjectMap _:node1eplp6natx3 .
+
+_:node1eplp6natx3 km-dev:isPartOfMapping _:node1eplp6natx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Cabin_GID-157851" ;
+	rr:class etype:Cabin_GID-15785 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Cabin_GID-157851" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_371ca8be-4ab1-4b81-8441-4b1a08ceafd6 rr:predicate etype:has_room_option_GID-120048_Type-118012 .
+
+km-dev:RefObjectMap_988aada6-c773-47a7-b0c3-667fede0dbf8 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_48fc5ab6-db18-44bc-983a-8d38d7856d13 ;
+	km-dev:isPartOfMapping _:node1eplp6natx1 .
+
+_:node1eplp6natx1 km-dev:hasObjectMap km-dev:RefObjectMap_988aada6-c773-47a7-b0c3-667fede0dbf8 .
+
+km-dev:PredicateObjectMap_371ca8be-4ab1-4b81-8441-4b1a08ceafd6 rr:objectMap km-dev:RefObjectMap_988aada6-c773-47a7-b0c3-667fede0dbf8 .
+
+km-dev:TriplesMap_f2e22f5f-e539-4d99-9695-b347c17c1417 rr:predicateObjectMap km-dev:PredicateObjectMap_371ca8be-4ab1-4b81-8441-4b1a08ceafd6 .
+
+km-dev:PredicateObjectMap_371ca8be-4ab1-4b81-8441-4b1a08ceafd6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1eplp6natx1 .
+
+_:node1eplp6natx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_371ca8be-4ab1-4b81-8441-4b1a08ceafd6 .
+
+km-dev:PredicateObjectMap_d259cf5f-613e-44cb-a8e7-9a167dcfbb6b rr:predicate etype:has_identifier_GID-39085_Type-118012 .
+
+_:node1eplp6natx4 rr:column "idHut" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1eplp6natx1 .
+
+_:node1eplp6natx1 km-dev:hasObjectMap _:node1eplp6natx4 .
+
+km-dev:PredicateObjectMap_d259cf5f-613e-44cb-a8e7-9a167dcfbb6b rr:objectMap _:node1eplp6natx4 .
+
+km-dev:TriplesMap_f2e22f5f-e539-4d99-9695-b347c17c1417 rr:predicateObjectMap km-dev:PredicateObjectMap_d259cf5f-613e-44cb-a8e7-9a167dcfbb6b .
+
+km-dev:PredicateObjectMap_d259cf5f-613e-44cb-a8e7-9a167dcfbb6b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1eplp6natx1 .
+
+_:node1eplp6natx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d259cf5f-613e-44cb-a8e7-9a167dcfbb6b .
+
+km-dev:TriplesMap_48fc5ab6-db18-44bc-983a-8d38d7856d13 a rr:TriplesMap .
+
+_:node1eplp6natx1 km-dev:hasTriplesMap km-dev:TriplesMap_48fc5ab6-db18-44bc-983a-8d38d7856d13 .
+
+km-dev:TriplesMap_48fc5ab6-db18-44bc-983a-8d38d7856d13 km-dev:isPartOfMapping _:node1eplp6natx1 .
+
+_:node1eplp6natx5 rr:tableName "50_outdooractive_room_options_cabin.json" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1eplp6natx1 .
+
+_:node1eplp6natx1 km-dev:hasLogicalTable _:node1eplp6natx5 .
+
+km-dev:TriplesMap_48fc5ab6-db18-44bc-983a-8d38d7856d13 rr:logicalTable _:node1eplp6natx5 ;
+	rr:subjectMap _:node1eplp6natx6 .
+
+_:node1eplp6natx1 km-dev:hasSubjectMap _:node1eplp6natx6 .
+
+_:node1eplp6natx6 km-dev:isPartOfMapping _:node1eplp6natx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Room_option_GID-1200481" ;
+	rr:class etype:Room_option_GID-120048 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Room_option_GID-1200481" .
+
+km-dev:PredicateObjectMap_633bf859-e17c-49fd-a406-1b6d6b0b1e7d rr:predicate etype:has_name_GID-2_Type-120048 .
+
+_:node1eplp6natx7 rr:column "roomOptionName" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1eplp6natx1 .
+
+_:node1eplp6natx1 km-dev:hasObjectMap _:node1eplp6natx7 .
+
+km-dev:PredicateObjectMap_633bf859-e17c-49fd-a406-1b6d6b0b1e7d rr:objectMap _:node1eplp6natx7 .
+
+km-dev:TriplesMap_48fc5ab6-db18-44bc-983a-8d38d7856d13 rr:predicateObjectMap km-dev:PredicateObjectMap_633bf859-e17c-49fd-a406-1b6d6b0b1e7d .
+
+km-dev:PredicateObjectMap_633bf859-e17c-49fd-a406-1b6d6b0b1e7d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1eplp6natx1 .
+
+_:node1eplp6natx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_633bf859-e17c-49fd-a406-1b6d6b0b1e7d .
