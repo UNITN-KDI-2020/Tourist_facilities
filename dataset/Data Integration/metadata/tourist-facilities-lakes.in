@@ -1,0 +1,11 @@
+{
+"Creator": "tourist-facilities",
+"CreationDate": "05/10/2020",
+"DatasetName": "tourist-facilities-lakes", 
+"Description": "The dataset contains information on the lakes in Trentino",
+"ColumnName": [{"inputName": "name", "skgName": "http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-1"}, {"inputName": "surfaceArea", "skgName": "http://knowdive.disi.unitn.it/etype#has_area_GID-28256_Type-49734"}, {"inputName": "location", "skgName": ""}],
+"SourceDatasetURL": "https://api.webmapp.it/trentino/geojson/routes/",
+"SKG" : "",
+"DKG" : "",
+"NumberItems" : 382
+}
