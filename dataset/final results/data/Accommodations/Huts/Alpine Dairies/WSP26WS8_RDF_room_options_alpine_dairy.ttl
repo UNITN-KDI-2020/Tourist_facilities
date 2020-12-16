@@ -1,0 +1,54 @@
+_:etype_Alpine_dairy_GID-1200971_92cfceb39d57d914ed8b14d0e37643de0797ae56_N13 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N15 .
+_:etype_Alpine_dairy_GID-1200971_92cfceb39d57d914ed8b14d0e37643de0797ae56_N13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Alpine_dairy_GID-120097> .
+_:etype_Alpine_dairy_GID-1200971_92cfceb39d57d914ed8b14d0e37643de0797ae56_N13 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "42" .
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N15 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "communalBunks" .
+
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N18 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "winterRooms" .
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Alpine_dairy_GID-1200971_92cfceb39d57d914ed8b14d0e37643de0797ae56_N17 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N18 .
+_:etype_Alpine_dairy_GID-1200971_92cfceb39d57d914ed8b14d0e37643de0797ae56_N17 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "42" .
+_:etype_Alpine_dairy_GID-1200971_92cfceb39d57d914ed8b14d0e37643de0797ae56_N17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Alpine_dairy_GID-120097> .
+
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N21 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Alpine_dairy_GID-1200971_92cfceb39d57d914ed8b14d0e37643de0797ae56_N20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Alpine_dairy_GID-120097> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Alpine_dairy_GID-1200971_92cfceb39d57d914ed8b14d0e37643de0797ae56_N20 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N21 .
+_:etype_Alpine_dairy_GID-1200971_92cfceb39d57d914ed8b14d0e37643de0797ae56_N20 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "42" .
+
+_:etype_Alpine_dairy_GID-1200971_92cfceb39d57d914ed8b14d0e37643de0797ae56_N23 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "42" .
+_:etype_Alpine_dairy_GID-1200971_92cfceb39d57d914ed8b14d0e37643de0797ae56_N23 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N24 .
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N24 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "twinRooms" .
+_:etype_Alpine_dairy_GID-1200971_92cfceb39d57d914ed8b14d0e37643de0797ae56_N23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Alpine_dairy_GID-120097> .
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+
+_:etype_Alpine_dairy_GID-1200971_511a418e72591eb7e33f703f04c3fa16df6c90bd_N26 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "62" .
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N27 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "communalBunks" .
+_:etype_Alpine_dairy_GID-1200971_511a418e72591eb7e33f703f04c3fa16df6c90bd_N26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Alpine_dairy_GID-120097> .
+_:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Alpine_dairy_GID-1200971_511a418e72591eb7e33f703f04c3fa16df6c90bd_N26 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_fed8e4678b16fc21c0a60b9a9560ec8073a403c7_N27 .
+
+_:etype_Alpine_dairy_GID-1200971_511a418e72591eb7e33f703f04c3fa16df6c90bd_N29 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "62" .
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N30 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "winterRooms" .
+_:etype_Alpine_dairy_GID-1200971_511a418e72591eb7e33f703f04c3fa16df6c90bd_N29 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N30 .
+_:etype_Alpine_dairy_GID-1200971_511a418e72591eb7e33f703f04c3fa16df6c90bd_N29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Alpine_dairy_GID-120097> .
+_:etype_Room_option_GID-1200481_a49a27bcccded6adced11dec974485d4f8badb64_N30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+
+_:etype_Alpine_dairy_GID-1200971_511a418e72591eb7e33f703f04c3fa16df6c90bd_N32 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N33 .
+_:etype_Alpine_dairy_GID-1200971_511a418e72591eb7e33f703f04c3fa16df6c90bd_N32 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "62" .
+_:etype_Alpine_dairy_GID-1200971_511a418e72591eb7e33f703f04c3fa16df6c90bd_N32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Alpine_dairy_GID-120097> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N33 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N36 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "twinRooms" .
+_:etype_Alpine_dairy_GID-1200971_511a418e72591eb7e33f703f04c3fa16df6c90bd_N35 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_cb613ff9ade6c6d3bc453ecd10d19f55eb42c397_N36 .
+_:etype_Alpine_dairy_GID-1200971_511a418e72591eb7e33f703f04c3fa16df6c90bd_N35 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "62" .
+_:etype_Alpine_dairy_GID-1200971_511a418e72591eb7e33f703f04c3fa16df6c90bd_N35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Alpine_dairy_GID-120097> .
+
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N39 <http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048> "rooms" .
+_:etype_Alpine_dairy_GID-1200971_c66c65175fecc3103b3b587be9b5b230889c8628_N38 <http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012> _:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N39 .
+_:etype_Alpine_dairy_GID-1200971_c66c65175fecc3103b3b587be9b5b230889c8628_N38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Alpine_dairy_GID-120097> .
+_:etype_Room_option_GID-1200481_ff9f2d5c9eda0ce81b15a2ee05f0bd749cd5ba91_N39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#Room_option_GID-120048> .
+_:etype_Alpine_dairy_GID-1200971_c66c65175fecc3103b3b587be9b5b230889c8628_N38 <http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012> "64" .
+
