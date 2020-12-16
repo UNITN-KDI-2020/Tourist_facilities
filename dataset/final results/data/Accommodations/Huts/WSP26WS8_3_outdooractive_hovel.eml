@@ -1,0 +1,211 @@
+[
+    {
+        "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+        "attributes": {
+            "2": ["La Baita del Neff"],
+            "120061": [{
+                "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                "attributes": {
+                    "34124": ["http://www.baitadelneff.it"],
+                    "120067": ["fam.neff@yahoo.it"],
+                    "34494": ["333 7146637 - 336 338992"]
+                },
+                "type": 120061
+            }],
+            "45911": [{
+                "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                "attributes": {
+                    "132": [
+                        {
+                            "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                            "attributes": {
+                                "46263": ["45.954181"],
+                                "46270": ["11.317007"]
+                            },
+                            "type": 132
+                        },
+                        {
+                            "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                            "attributes": {
+                                "46263": ["45.950069"],
+                                "46270": ["11.278407"]
+                            },
+                            "type": 132
+                        },
+                        {
+                            "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                            "attributes": {
+                                "46263": ["46.296851"],
+                                "46270": ["10.926397"]
+                            },
+                            "type": 132
+                        }
+                    ],
+                    "45807": [
+                        {
+                            "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                            "attributes": {
+                                "120047": ["Monte Virgo Maria"],
+                                "45969": ["Luserna"],
+                                "120109": ["38040"],
+                                "33999": ["Monte Virgo Maria"]
+                            },
+                            "type": 45807
+                        },
+                        {
+                            "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                            "attributes": {
+                                "120047": ["Loc. Monte Tablat - Lavarone"],
+                                "45969": ["Lavarone"],
+                                "120109": ["38046"],
+                                "33999": ["Loc. Monte Tablat - Lavarone"]
+                            },
+                            "type": 45807
+                        }
+                    ]
+                },
+                "type": 45911
+            }],
+            "39085": ["36"]
+        },
+        "type": 19379
+    },
+    {
+        "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+        "attributes": {
+            "2": ["Pian della Nana"],
+            "120061": [{
+                "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                "attributes": {"34124": ["http://www.piandelanana.it/"]},
+                "type": 120061
+            }],
+            "45911": [{
+                "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                "attributes": {
+                    "132": [
+                        {
+                            "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                            "attributes": {
+                                "46263": ["45.954181"],
+                                "46270": ["11.317007"]
+                            },
+                            "type": 132
+                        },
+                        {
+                            "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                            "attributes": {
+                                "46263": ["45.950069"],
+                                "46270": ["11.278407"]
+                            },
+                            "type": 132
+                        },
+                        {
+                            "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                            "attributes": {
+                                "46263": ["46.296851"],
+                                "46270": ["10.926397"]
+                            },
+                            "type": 132
+                        }
+                    ],
+                    "45807": [
+                        {
+                            "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                            "attributes": {
+                                "120047": ["Monte Virgo Maria"],
+                                "45969": ["Luserna"],
+                                "120109": ["38040"],
+                                "33999": ["Monte Virgo Maria"]
+                            },
+                            "type": 45807
+                        },
+                        {
+                            "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                            "attributes": {
+                                "120047": ["Loc. Monte Tablat - Lavarone"],
+                                "45969": ["Lavarone"],
+                                "120109": ["38046"],
+                                "33999": ["Loc. Monte Tablat - Lavarone"]
+                            },
+                            "type": 45807
+                        }
+                    ]
+                },
+                "type": 45911
+            }],
+            "39085": ["32"]
+        },
+        "type": 19379
+    },
+    {
+        "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+        "attributes": {
+            "2": ["Tana Incantata"],
+            "120061": [{
+                "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                "attributes": {
+                    "34124": ["http://www.tanaincantata.it"],
+                    "120067": ["info@tanaincantata.it"],
+                    "34494": ["3478924679"]
+                },
+                "type": 120061
+            }],
+            "45911": [{
+                "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                "attributes": {
+                    "132": [
+                        {
+                            "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                            "attributes": {
+                                "46263": ["45.954181"],
+                                "46270": ["11.317007"]
+                            },
+                            "type": 132
+                        },
+                        {
+                            "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                            "attributes": {
+                                "46263": ["45.950069"],
+                                "46270": ["11.278407"]
+                            },
+                            "type": 132
+                        },
+                        {
+                            "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                            "attributes": {
+                                "46263": ["46.296851"],
+                                "46270": ["10.926397"]
+                            },
+                            "type": 132
+                        }
+                    ],
+                    "45807": [
+                        {
+                            "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                            "attributes": {
+                                "120047": ["Monte Virgo Maria"],
+                                "45969": ["Luserna"],
+                                "120109": ["38040"],
+                                "33999": ["Monte Virgo Maria"]
+                            },
+                            "type": 45807
+                        },
+                        {
+                            "provenance": "StarLinker import @Wed Dec 16 12:11:04 GMT 2020",
+                            "attributes": {
+                                "120047": ["Loc. Monte Tablat - Lavarone"],
+                                "45969": ["Lavarone"],
+                                "120109": ["38046"],
+                                "33999": ["Loc. Monte Tablat - Lavarone"]
+                            },
+                            "type": 45807
+                        }
+                    ]
+                },
+                "type": 45911
+            }],
+            "39085": ["34"]
+        },
+        "type": 19379
+    }
+]
