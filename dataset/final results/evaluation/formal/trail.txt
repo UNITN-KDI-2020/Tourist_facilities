@@ -1,0 +1,61 @@
+abbreviation
+areaCode
+areaName
+atecoCode
+disstrictCode
+firenzeCard
+isSelfService
+lineNumber
+multimediaResource
+primaryType
+routeCode
+routePosition
+stopNumber
+time
+type
+lat
+long
+
+
+http://knowdive.disi.unitn.it/etype#has_elevation_profile_GID-120111_Type-24805
+http://knowdive.disi.unitn.it/etype#has_end_point_GID-120107_Type-24805
+http://knowdive.disi.unitn.it/etype#has_estimated_time_GID-120108_Type-24805
+http://knowdive.disi.unitn.it/etype#has_opening_month_GID-120066_Type-24805
+http://knowdive.disi.unitn.it/etype#has_route_GID-22592_Type-24805
+http://knowdive.disi.unitn.it/etype#has_start_point_GID-120106_Type-24805
+http://knowdive.disi.unitn.it/etype#has_trail_ground_GID-120049_Type-24805
+http://knowdive.disi.unitn.it/etype#has_trail_stats_GID-120110_Type-24805
+http://knowdive.disi.unitn.it/etype#has_difficulty_GID-26144_Type-24805
+http://knowdive.disi.unitn.it/etype#has_distance_GID-28039_Type-24805
+http://knowdive.disi.unitn.it/etype#has_equipment_GID-17881_Type-24805
+http://knowdive.disi.unitn.it/etype#has_open_GID-91023_Type-24805
+http://knowdive.disi.unitn.it/etype#has_sat_identifier_GID-120050_Type-24805
+http://knowdive.disi.unitn.it/etype#has_tag_GID-39096_Type-24805
+
+http://knowdive.disi.unitn.it/etype#has_beginning_GID-81324_Type-1
+http://knowdive.disi.unitn.it/etype#has_description_GID-3_Type-1
+http://knowdive.disi.unitn.it/etype#has_duration_GID-80582_Type-1
+http://knowdive.disi.unitn.it/etype#has_end_GID-81330_Type-1
+http://knowdive.disi.unitn.it/etype#has_metadata_GID-45663_Type-1
+http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-1
+http://knowdive.disi.unitn.it/etype#has_part_meronym_GID-22_Type-1
+http://knowdive.disi.unitn.it/etype#has_class_GID-43482_Type-1
+http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1
+
+
+areaName - name
+routeCode - sat_identifier
+lat|long - start_point|end_point
+routePosition - route
+time - estimated_time
+
+alpha=17
+beta=23
+A=11
+B=6
+C=17
+
+coverage=6/17=0.35
+flexibility=17/17=1
+extensiveness=17/(17+23)=0.42
+sparsity=(11+17)/(17+23)=0.7
