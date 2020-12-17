@@ -1,0 +1,311 @@
+{
+"Creator": "tourist-facilities",
+"CreationDate": "05/10/2020",
+"LKG" : "",//TODO
+"DKG" : "",//TODO
+"EntityTypes" : [
+    "http://knowdive.disi.unitn.it/etype#Action_kind_GID-120018", 
+    "http://knowdive.disi.unitn.it/etype#Alpine_dairy_GID-120097", 
+    "http://knowdive.disi.unitn.it/etype#Apartment_GID-14548", 
+    "http://knowdive.disi.unitn.it/etype#Bed_and_breakfast_GID-15093",
+    "http://knowdive.disi.unitn.it/etype#Biking_trail_GID-120045", 
+    "http://knowdive.disi.unitn.it/etype#Bivouac_GID-120092", 
+    "http://knowdive.disi.unitn.it/etype#Cabin_GID-15785", 
+    "http://knowdive.disi.unitn.it/etype#ComplexType", 
+    "http://knowdive.disi.unitn.it/etype#Computer_file_GID-34892", 
+    "http://knowdive.disi.unitn.it/etype#Contact_Information_GID-120061", 
+    "http://knowdive.disi.unitn.it/etype#Context_GID-120016", 
+    "http://knowdive.disi.unitn.it/etype#Creation_GID-16921", 
+    "http://knowdive.disi.unitn.it/etype#Duration_GID-80582", 
+    "http://knowdive.disi.unitn.it/etype#ElevationProfile_GID-120111"   , 
+    "http://knowdive.disi.unitn.it/etype#End_point_GID-120107", 
+    "http://knowdive.disi.unitn.it/etype#Entity_GID-1", 
+    "http://knowdive.disi.unitn.it/etype#EstimatedDuration_GID-120108", 
+    "http://knowdive.disi.unitn.it/etype#Event_GID-138", 
+    "http://knowdive.disi.unitn.it/etype#Function_kind_GID-120019", 
+    "http://knowdive.disi.unitn.it/etype#Ground_Composition_GID-120049", 
+    "http://knowdive.disi.unitn.it/etype#Hiking_trail_GID-120044", 
+    "http://knowdive.disi.unitn.it/etype#Hotel_GID-19355", 
+    "http://knowdive.disi.unitn.it/etype#Hovel_GID-19379", 
+    "http://knowdive.disi.unitn.it/etype#IdentifyingSet", 
+    "http://knowdive.disi.unitn.it/etype#Lake_GID-49734", 
+    "http://knowdive.disi.unitn.it/etype#Landlord_GID-54965", 
+    "http://knowdive.disi.unitn.it/etype#Living_accommodation_GID-118012", 
+    "http://knowdive.disi.unitn.it/etype#Living_being_GID-120021", 
+    "http://knowdive.disi.unitn.it/etype#Location_GID-132", 
+    "http://knowdive.disi.unitn.it/etype#Metadata_GID-45663", 
+    "http://knowdive.disi.unitn.it/etype#Moment_GID-81213", 
+    "http://knowdive.disi.unitn.it/etype#NLString", 
+    "http://knowdive.disi.unitn.it/etype#Name_GID-2", 
+    "http://knowdive.disi.unitn.it/etype#Opening_Hours_GID-120096", 
+    "http://knowdive.disi.unitn.it/etype#Opening_Month_GID-120066", 
+    "http://knowdive.disi.unitn.it/etype#Opening_Time_Day_GID-120095", 
+    "http://knowdive.disi.unitn.it/etype#Opening_Time_GID-120094", 
+    "http://knowdive.disi.unitn.it/etype#Organization_GID-43544", 
+    "http://knowdive.disi.unitn.it/etype#Person_GID-118", 
+    "http://knowdive.disi.unitn.it/etype#Person_name_GID-117693", 
+    "http://knowdive.disi.unitn.it/etype#Place_Information_GID-45911", 
+    "http://knowdive.disi.unitn.it/etype#Real_kind_GID-120017", 
+    "http://knowdive.disi.unitn.it/etype#Room_Option_GID-120048", 
+    "http://knowdive.disi.unitn.it/etype#Road_GID-22592", 
+    "http://knowdive.disi.unitn.it/etype#SemanticString", 
+    "http://knowdive.disi.unitn.it/etype#Ski_area_GID-118065", 
+    "http://knowdive.disi.unitn.it/etype#Snow_slope_GID-120099", 
+    "http://knowdive.disi.unitn.it/etype#Snowshoe_trail_GID-120046", 
+    "http://knowdive.disi.unitn.it/etype#StartLocation_GID-120106", 
+    "http://knowdive.disi.unitn.it/etype#Street_address_GID-45807", 
+    "http://knowdive.disi.unitn.it/etype#Structure_GID-24069", 
+    "http://knowdive.disi.unitn.it/etype#Trail_GID-24805", 
+    "http://knowdive.disi.unitn.it/etype#Trail_stats_GID-120110", 
+    "http://knowdive.disi.unitn.it/etype#concept"
+],
+"ObjectProperties" : 
+    {   "http://knowdive.disi.unitn.it/etype#Living_accommodation_GID-118012" : [
+            "http://knowdive.disi.unitn.it/etype#has_contact_information_GID-120061_Type-118012", 
+            "http://knowdive.disi.unitn.it/etype#has_place_GID-45911_Type-118065", 
+            "http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012"
+        ], 
+        
+        "http://knowdive.disi.unitn.it/etype#Computer_file_GID-34892" : [
+            "http://knowdive.disi.unitn.it/etype#has_creator_GID-51275_Type-34892", 
+            "http://knowdive.disi.unitn.it/etype#has_date_of_publication_GID-117691_Type-34892"
+        ], 
+        
+        "http://knowdive.disi.unitn.it/etype#Creation_GID-16921" : [
+            "http://knowdive.disi.unitn.it/etype#has_contributor_GID-53267_Type-16921", 
+            "http://knowdive.disi.unitn.it/etype#has_creator_GID-51275_Type-16921", 
+            "http://knowdive.disi.unitn.it/etype#has_key_word_GID-33805_Type-16921", 
+            "http://knowdive.disi.unitn.it/etype#has_outline_GID-34682_Type-16921", 
+            "http://knowdive.disi.unitn.it/etype#has_subject_GID-35361_Type-16921", 
+            "http://knowdive.disi.unitn.it/etype#has_title_GID-34045_Type-16921"
+        ], 
+        
+        "http://knowdive.disi.unitn.it/etype#Entity_GID-1" : [
+            "http://knowdive.disi.unitn.it/etype#has_beginning_GID-81324_Type-1", 
+            "http://knowdive.disi.unitn.it/etype#has_description_GID-3_Type-1", 
+            "http://knowdive.disi.unitn.it/etype#has_duration_GID-80582_Type-1", 
+            "http://knowdive.disi.unitn.it/etype#has_end_GID-81330_Type-1", 
+            "http://knowdive.disi.unitn.it/etype#has_metadata_GID-45663_Type-1", 
+            "http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-1", 
+            "http://knowdive.disi.unitn.it/etype#has_part_meronym_GID-22_Type-1"
+        ], 
+        
+        "http://knowdive.disi.unitn.it/etype#Event_GID-138" : [
+            "http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-138", 
+            "http://knowdive.disi.unitn.it/etype#has_participant_GID-55912_Type-138", 
+            "http://knowdive.disi.unitn.it/etype#has_phase_GID-81455_Type-138"
+        ], 
+        
+        "http://knowdive.disi.unitn.it/etype#Hovel_GID-19379" : [
+            "http://knowdive.disi.unitn.it/etype#has_landlord_GID-54965_Type-19379"
+        ], 
+        
+        "http://knowdive.disi.unitn.it/etype#IdentifyingSet" : ["http://knowdive.disi.unitn.it/etype#hasIdProperty"], 
+        
+        "http://knowdive.disi.unitn.it/etype#Lake_GID-49734" : ["http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-49734"], 
+        
+        "http://knowdive.disi.unitn.it/etype#Landlord_GID-54965" : ["http://knowdive.disi.unitn.it/etype#has_street_address_GID-45807_Type-54965", "http://knowdive.disi.unitn.it/etype#has_contact_information_GID-120061_Type-118012"], 
+        
+        "http://knowdive.disi.unitn.it/etype#Living_being_GID-120021" : ["http://knowdive.disi.unitn.it/etype#has_contact_information_GID-120061_Type-54965"], 
+        
+        "http://knowdive.disi.unitn.it/etype#Metadata_GID-45663" : [
+            "http://knowdive.disi.unitn.it/etype#has_birthplace_GID-45897_Type-45663", 
+            "http://knowdive.disi.unitn.it/etype#has_time_GID-81346_Type-45663"
+        ], 
+        
+        "http://knowdive.disi.unitn.it/etype#Name_GID-2" : ["http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-2"], 
+        
+        "http://knowdive.disi.unitn.it/etype#Opening_Time_Day_GID-120095" : ["http://knowdive.disi.unitn.it/etype#has_opening_hours_GID-120096_Type-120095"], 
+        
+        "http://knowdive.disi.unitn.it/etype#Opening_Time_GID-120094" : ["http://knowdive.disi.unitn.it/etype#has_opening_time_day_GID-120095_Type-120094"], 
+        
+        "http://knowdive.disi.unitn.it/etype#Organization_GID-43544" : ["http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-43544"], 
+        
+        "http://knowdive.disi.unitn.it/etype#Person_GID-118" : [
+            "http://knowdive.disi.unitn.it/etype#has_birthday_GID-81257_Type-118", 
+            "http://knowdive.disi.unitn.it/etype#has_birthplace_GID-45896_Type-118", 
+            "http://knowdive.disi.unitn.it/etype#has_date_of_death_GID-118224_Type-118", 
+            "http://knowdive.disi.unitn.it/etype#has_place_of_death_GID-118225_Type-118"
+        ], 
+        
+        "http://knowdive.disi.unitn.it/etype#Person_name_GID-117693" : [
+            "http://knowdive.disi.unitn.it/etype#has_first_name_GID-34006_Type-117693", 
+            "http://knowdive.disi.unitn.it/etype#has_middle_name_GID-34005_Type-117693", 
+            "http://knowdive.disi.unitn.it/etype#has_surname_GID-34003_Type-117693"
+        ], 
+        
+        "http://knowdive.disi.unitn.it/etype#Place_GID-45911" : [
+            "http://knowdive.disi.unitn.it/etype#has_street_address_GID-45807_Type-45911", 
+            "http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-45911", 
+            "http://knowdive.disi.unitn.it/etype#has_opening_month_GID-120066_Type-45911", 
+            "http://knowdive.disi.unitn.it/etype#has_opening_time_GID-120094_Type-45911"
+        ], 
+        
+        "http://knowdive.disi.unitn.it/etype#Road_GID-22592" : ["http://knowdive.disi.unitn.it/etype#has_location_GID-132_Type-22592"], 
+        
+        "http://knowdive.disi.unitn.it/etype#Ski_area_GID-118065" : [
+            "http://knowdive.disi.unitn.it/etype#has_place_GID-45911_Type-118065", 
+            "http://knowdive.disi.unitn.it/etype#has_snow_slope_GID-120099_Type-118065"
+        ], 
+        
+        "http://knowdive.disi.unitn.it/etype#Trail_GID-24805" : [
+            "http://knowdive.disi.unitn.it/etype#has_ground_composition_GID-120049_Type-24805",
+            "http://knowdive.disi.unitn.it/etype#has_elevation_profile_GID-120111_Type-24805", 
+            "http://knowdive.disi.unitn.it/etype#has_end_point_GID-120107_Type-24805", 
+            "http://knowdive.disi.unitn.it/etype#has_estimated_duration_GID-120108_Type-24805", 
+            "http://knowdive.disi.unitn.it/etype#has_opening_month_GID-120066_Type-24805", 
+            "http://knowdive.disi.unitn.it/etype#has_road_GID-22592_Type-24805", 
+            "http://knowdive.disi.unitn.it/etype#has_start_point_GID-120106_Type-24805", 
+            "http://knowdive.disi.unitn.it/etype#has_trail_stats_GID-120110_Type-24805"]
+    },
+"DataProperties" : {
+    "http://knowdive.disi.unitn.it/etype#Living_accommodation_GID-118012" : [
+        "http://knowdive.disi.unitn.it/etype#has_capacity_GID-73259_Type-118012", 
+        "http://knowdive.disi.unitn.it/etype#has_service_GID-3011_Type-118012"
+    ], 
+    
+    "http://knowdive.disi.unitn.it/etype#Action_kind_GID-120018" : ["http://knowdive.disi.unitn.it/etype#has_action_property_GID-120036_Type-120018"], 
+    
+    "http://knowdive.disi.unitn.it/etype#Address_GID-45807" : [
+        "http://knowdive.disi.unitn.it/etype#has_cap_GID-120109_Type-45807", 
+        "http://knowdive.disi.unitn.it/etype#has_city_GID-45969_Type-45807", 
+        "http://knowdive.disi.unitn.it/etype#has_country_GID-46010_Type-45807", 
+        "http://knowdive.disi.unitn.it/etype#has_province_GID-46567_Type-45807", 
+        "http://knowdive.disi.unitn.it/etype#has_street_name_GID-33999_Type-45807", 
+        "http://knowdive.disi.unitn.it/etype#has_street_number_GID-120047_Type-45807"
+    ], 
+    
+    "http://knowdive.disi.unitn.it/etype#Computer_file_GID-34892" : [
+        "http://knowdive.disi.unitn.it/etype#has_format_GID-35579_Type-34892", 
+        "http://knowdive.disi.unitn.it/etype#has_home_page_GID-34125_Type-34892", 
+        "http://knowdive.disi.unitn.it/etype#has_license_GID-35108_Type-34892", 
+        "http://knowdive.disi.unitn.it/etype#has_size_GID-28114_Type-34892", 
+        "http://knowdive.disi.unitn.it/etype#has_url_GID-34123_Type-34892", 
+        "http://knowdive.disi.unitn.it/etype#has_version_GID-31836_Type-34892"
+    ], 
+    
+    "http://knowdive.disi.unitn.it/etype#Contact_Information_GID-120061" : [
+        "http://knowdive.disi.unitn.it/etype#has_email_GID-120067_Type-120061", 
+        "http://knowdive.disi.unitn.it/etype#has_phone_number_GID-34494_Type-120061", 
+        "http://knowdive.disi.unitn.it/etype#has_website_GID-34124_Type-120061"
+    ], 
+    
+    "http://knowdive.disi.unitn.it/etype#Context_GID-120016" : ["http://knowdive.disi.unitn.it/etype#has_context_property_GID-120032_Type-120016"], 
+    
+    "http://knowdive.disi.unitn.it/etype#Duration_GID-80582" : [
+        "http://knowdive.disi.unitn.it/etype#has_maximum_GID-73238_Type-80582", 
+        "http://knowdive.disi.unitn.it/etype#has_minimum_GID-73141_Type-80582"
+    ], 
+        
+    "http://knowdive.disi.unitn.it/etype#ElevationProfile_GID-120111" : [
+        "http://knowdive.disi.unitn.it/etype#has_ascent_GID-49112_Type-120111", 
+        "http://knowdive.disi.unitn.it/etype#has_chart_url_GID-120052_Type-120111", 
+        "http://knowdive.disi.unitn.it/etype#has_descent_GID-49409_Type-120111"
+    ], 
+    
+    "http://knowdive.disi.unitn.it/etype#Entity_GID-1" : [
+        "http://knowdive.disi.unitn.it/etype#has_class_GID-43482_Type-1", 
+        "http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-1"
+    ], 
+    
+    "http://knowdive.disi.unitn.it/etype#EstimatedDuration_GID-120108" : [
+        "http://knowdive.disi.unitn.it/etype#has_days_GID-120053_Type-120108", 
+        "http://knowdive.disi.unitn.it/etype#has_hours_GID-120054_Type-120108", 
+        "http://knowdive.disi.unitn.it/etype#has_minutes_GID-120055_Type-120108", 
+        "http://knowdive.disi.unitn.it/etype#has_seconds_GID-120056_Type-120108"
+    ], 
+    
+    "http://knowdive.disi.unitn.it/etype#Function_kind_GID-120019" : ["http://knowdive.disi.unitn.it/etype#has_function_property_GID-120037_Type-120019"], 
+    
+    "http://knowdive.disi.unitn.it/etype#Ground_Composition_GID-120049" : [
+        "http://knowdive.disi.unitn.it/etype#has_ground_type_name_GID-120065_Type-120049", 
+        "http://knowdive.disi.unitn.it/etype#has_percentage_GID-73442_Type-120049"], 
+        
+    "http://knowdive.disi.unitn.it/etype#Hut_GID-19379" : ["http://knowdive.disi.unitn.it/etype#has_information_GID-45661_Type-19379"], 
+    
+    "http://knowdive.disi.unitn.it/etype#Lake_GID-49734" : [
+        "http://knowdive.disi.unitn.it/etype#has_area_GID-28256_Type-49734", 
+        "http://knowdive.disi.unitn.it/etype#has_perimeter_GID-28126_Type-49734", 
+        "http://knowdive.disi.unitn.it/etype#has_water_avg_temperature_GID-27668_Type-49734"
+    ], 
+    
+    "http://knowdive.disi.unitn.it/etype#Living_being_GID-120021" : ["http://knowdive.disi.unitn.it/etype#has_biological_property_GID-120034_Type-120021"], 
+    
+    "http://knowdive.disi.unitn.it/etype#Location_GID-132" : [
+        "http://knowdive.disi.unitn.it/etype#has_elevation_GID-28270_Type-132", 
+        "http://knowdive.disi.unitn.it/etype#has_latitude_GID-46263_Type-132", 
+        "http://knowdive.disi.unitn.it/etype#has_longitude_GID-46270_Type-132"
+    ], 
+    
+    "http://knowdive.disi.unitn.it/etype#Metadata_GID-45663" : [
+        "http://knowdive.disi.unitn.it/etype#has_created_GID-120042_Type-45663", 
+        "http://knowdive.disi.unitn.it/etype#has_last_modified_GID-120043_Type-45663", 
+        "http://knowdive.disi.unitn.it/etype#has_resource_GID-28385_Type-45663", 
+        "http://knowdive.disi.unitn.it/etype#has_source_GID-103627_Type-45663", 
+        "http://knowdive.disi.unitn.it/etype#has_veracity_GID-26929_Type-45663"], 
+        
+    "http://knowdive.disi.unitn.it/etype#Moment_GID-81213" : [
+        "http://knowdive.disi.unitn.it/etype#has_beginning_GID-81324_Type-81213", 
+        "http://knowdive.disi.unitn.it/etype#has_end_GID-81330_Type-81213"
+    ], 
+    
+    "http://knowdive.disi.unitn.it/etype#NLString" : ["http://knowdive.disi.unitn.it/etype#hasLanguage", "http://knowdive.disi.unitn.it/etype#hasString"], 
+    
+    "http://knowdive.disi.unitn.it/etype#Opening_Hours_GID-120096" : [
+        "http://knowdive.disi.unitn.it/etype#has_end_open_time_GID-120064_Type-120096", 
+        "http://knowdive.disi.unitn.it/etype#has_start_open_time_GID-120063_Type-120096"
+    ], 
+    
+    "http://knowdive.disi.unitn.it/etype#Opening_Month_GID-120066" : [
+        "http://knowdive.disi.unitn.it/etype#has_month_name_GID-81007_Type-120066", 
+        "http://knowdive.disi.unitn.it/etype#has_open_GID-91023_Type-120066"
+    ], 
+    
+    "http://knowdive.disi.unitn.it/etype#Opening_Time_Day_GID-120095" : ["http://knowdive.disi.unitn.it/etype#has_day_name_GID-80529_Type-120095"], 
+    
+    "http://knowdive.disi.unitn.it/etype#Opening_Time_GID-120094" : ["http://knowdive.disi.unitn.it/etype#has_additional_information_GID-45661_Type-120094"], 
+    
+    "http://knowdive.disi.unitn.it/etype#Person_GID-118" : ["http://knowdive.disi.unitn.it/etype#has_electronic_mail_GID-33745_Type-118"], 
+    
+    "http://knowdive.disi.unitn.it/etype#Person_name_GID-117693" : ["http://knowdive.disi.unitn.it/etype#has_title_GID-34019_Type-117693"], 
+    
+    "http://knowdive.disi.unitn.it/etype#Place_GID-45911" : ["http://knowdive.disi.unitn.it/etype#has_stars_GID-120100_Type-45911"], 
+    
+    "http://knowdive.disi.unitn.it/etype#Real_kind_GID-120017" : ["http://knowdive.disi.unitn.it/etype#has_object_property_GID-120033_Type-120017"], 
+    
+    "http://knowdive.disi.unitn.it/etype#Room_Option_GID-120048" : [
+        "http://knowdive.disi.unitn.it/etype#has_capacity_GID-73259_Type-120048", 
+        "http://knowdive.disi.unitn.it/etype#has_price_night_GID-70571_Type-120048",
+        "http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048"
+    ], 
+    
+    "http://knowdive.disi.unitn.it/etype#SemanticString" : ["http://knowdive.disi.unitn.it/etype#hasSourceString"], 
+    
+    "http://knowdive.disi.unitn.it/etype#Ski_area_GID-118065" : [
+        "http://knowdive.disi.unitn.it/etype#has_adult_price_GID-120105_Type-118065", 
+        "http://knowdive.disi.unitn.it/etype#has_kid_price_GID-120104_Type-118065", 
+        "http://knowdive.disi.unitn.it/etype#has_open_GID-81711_Type-118065", 
+        "http://knowdive.disi.unitn.it/etype#has_young_price_GID-120103_Type-118065"
+    ], 
+    
+    "http://knowdive.disi.unitn.it/etype#Snow_slope_GID-120099" : [
+        "http://knowdive.disi.unitn.it/etype#has_available_length_GID-120102_Type-120099", 
+        "http://knowdive.disi.unitn.it/etype#has_slope_rank_GID-120062_Type-120099", 
+        "http://knowdive.disi.unitn.it/etype#has_total_length_GID-120101_Type-120099"
+    ], 
+    
+    "http://knowdive.disi.unitn.it/etype#Trail_GID-24805" : [
+        "http://knowdive.disi.unitn.it/etype#has_difficulty_GID-26144_Type-24805", 
+        "http://knowdive.disi.unitn.it/etype#has_distance_GID-28039_Type-24805", 
+        "http://knowdive.disi.unitn.it/etype#has_equipment_GID-17881_Type-24805", 
+        "http://knowdive.disi.unitn.it/etype#has_open_GID-91023_Type-24805", 
+        "http://knowdive.disi.unitn.it/etype#has_sat_identifier_GID-120050_Type-24805", 
+        "http://knowdive.disi.unitn.it/etype#has_tag_GID-39096_Type-24805"
+    ], 
+    
+    "http://knowdive.disi.unitn.it/etype#Trail_Stats_GID-120110" : [
+        "http://knowdive.disi.unitn.it/etype#has_experience_GID-31439_Type-120110", 
+        "http://knowdive.disi.unitn.it/etype#has_landscape_GID-46519_Type-120110", 
+        "http://knowdive.disi.unitn.it/etype#has_stamina_GID-27776_Type-120110", 
+        "http://knowdive.disi.unitn.it/etype#has_technique_GID-30856_Type-120110"]}
+}

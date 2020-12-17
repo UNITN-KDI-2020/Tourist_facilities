@@ -1,0 +1,15 @@
+{
+    "Creator": "tourist-facilities",
+    "CreationDate": "16/12/2020",
+    "DatasetName": "", 
+    "Description": "The dataset contains huts in Trentino scraped from outdooractive.com",
+    "ColumnName": [
+        {"inputName": "id", "skgName": "http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-24805"},
+
+    ],
+    "Provenance": "https://www.outdooractive.com/en/",
+    "SourceDatasetURL": "https://github.com/UNITN-KDI-2020/Tourist_facilities/blob/master/dataset/Data%20Integration/data/Accommodations/Huts/43_outdooractive_cabin.json",
+    "SKG" : "https://github.com/UNITN-KDI-2020/Tourist_facilities/blob/master/dataset/final%20results/knowledge/tourist-facilities-ontology.owl",
+    "DKG" : "",
+    "NumberItems" : 86
+    }

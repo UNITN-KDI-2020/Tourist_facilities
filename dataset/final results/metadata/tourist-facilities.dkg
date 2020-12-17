@@ -1,0 +1,16 @@
+{
+"Creator": "tourist-facilities",
+"CreationDate": "17/12/2020",
+"InputFiles" : [""],
+"SKG" : "",
+"LKG" : "",
+"Project" : "KDI2020-tourist-facilities.kdi",
+"NumberEntities": {
+    "http://knowdive.disi.unitn.it/etype#Lake_GID-49734": 480,
+    "http://knowdive.disi.unitn.it/etype#Hiking_trail_GID-120044": 1182,
+    "http://knowdive.disi.unitn.it/etype#Biking_trail_GID-120045": 126,
+    "http://knowdive.disi.unitn.it/etype#Snowshoe_trail_GID-120046": 86,
+    ""
+}
+
+}

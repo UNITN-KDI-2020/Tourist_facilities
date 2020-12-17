@@ -1,0 +1,15 @@
+{
+"Creator": "Tourist facilities",
+"CreationDate": "17/12/2020",
+"DKIyear": 2020,
+"Menbers":[ 
+    {"name": "Javier Peña", "roles": ["PM", "DS"]},
+    {"name": "Enrico Micheli", "roles": ["DE", "KE"]},
+    {"name": "Devis Dal Moro", "roles": ["KE", "DS"]}
+],
+"CodeBook":"https://github.com/UNITN-KDI-2020/Tourist_facilities/blob/master/dataset/final%20results/Tourist_Facilities-Codebook.pdf",
+"Demo": "https://github.com/UNITN-KDI-2020/Tourist_facilities/tree/master/dataset/final%20results/graphs",
+"DemoSlides": "",
+"ProjectSlides":"https://github.com/UNITN-KDI-2020/Tourist_facilities/blob/master/dataset/final%20results/Tourist%20facilities%20%E2%80%93%20KDI%20Project.pptx.pdf",
+"Repository": "https://github.com/UNITN-KDI-2020/Turist_facicilities"
+}
