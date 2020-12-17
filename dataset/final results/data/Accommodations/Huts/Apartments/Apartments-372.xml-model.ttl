@@ -1,0 +1,1335 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix etype: <http://knowdive.disi.unitn.it/etype#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix karma: <http://isi.edu/integration/karma/ontologies/model/current#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1epmqi78tx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "Apartments-372.xml" ;
+	km-dev:modelPublicationTime "1608157568286"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"id\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"prezzi-eea\"},{\"columnName\":\"comune\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"recapito-www\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"prezzi-eea\"},{\"columnName\":\"lista-posti-letto\"},{\"columnName\":\"postiletto\"},{\"columnName\":\"prezzo-tipologia\"},{\"columnName\":\"prezzo\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"recapito-email\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"prezzi-eea\"},{\"columnName\":\"indirizzo\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"prezzi-eea\"},{\"columnName\":\"lista-posti-letto\"},{\"columnName\":\"postiletto\"},{\"columnName\":\"prezzo-tipologia\"},{\"columnName\":\"tipologia-unita\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"altitudine-Localita\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"prezzi-eea\"},{\"columnName\":\"lista-posti-letto\"},{\"columnName\":\"postiletto\"},{\"columnName\":\"numero-posti\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"recapito-telefono\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"cap-Localita\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"lista-servizi-accessori\"},{\"columnName\":\"servizio\"},{\"columnName\":\"descrizione\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"id\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"prezzi-eea\"},{\"columnName\":\"comune\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"recapito-www\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"prezzi-eea\"},{\"columnName\":\"lista-posti-letto\"},{\"columnName\":\"postiletto\"},{\"columnName\":\"prezzo-tipologia\"},{\"columnName\":\"prezzo\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"recapito-email\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"prezzi-eea\"},{\"columnName\":\"indirizzo\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"prezzi-eea\"},{\"columnName\":\"lista-posti-letto\"},{\"columnName\":\"postiletto\"},{\"columnName\":\"prezzo-tipologia\"},{\"columnName\":\"tipologia-unita\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"altitudine-Localita\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"prezzi-eea\"},{\"columnName\":\"lista-posti-letto\"},{\"columnName\":\"postiletto\"},{\"columnName\":\"numero-posti\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"recapito-telefono\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"cap-Localita\"}],[{\"columnName\":\"stampa-annuario\"},{\"columnName\":\"prezzi-localita\"},{\"columnName\":\"tipo-extraalbergo\"},{\"columnName\":\"prezzi-extraalbergo\"},{\"columnName\":\"lista-servizi-accessori\"},{\"columnName\":\"servizio\"},{\"columnName\":\"descrizione\"}]]" ;
+	km-dev:hasModelLabel "Apartments-372.xml" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"stampa-annuario\"},
+                    {\"columnName\": \"prezzi-localita\"},
+                    {\"columnName\": \"altitudine-Localita\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Place_GID-45911\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Place_GID-459111\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_elevation_GID-28270_Type-132\",
+                    \"DomainLabel\": \"etype:Place_GID-459111 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"altitudine-Localita\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"altitudine-Localita\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"stampa-annuario\"},
+                    {\"columnName\": \"prezzi-localita\"},
+                    {\"columnName\": \"cap-Localita\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Street_address_GID-45807\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Street_address_GID-458071\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_cap_GID-120109_Type-45807\",
+                    \"DomainLabel\": \"etype:Street_address_GID-458071 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"cap-Localita\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"cap-Localita\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"stampa-annuario\"},
+                    {\"columnName\": \"prezzi-localita\"},
+                    {\"columnName\": \"tipo-extraalbergo\"},
+                    {\"columnName\": \"prezzi-extraalbergo\"},
+                    {\"columnName\": \"id\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Apartment_GID-14548\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Apartment_GID-145481\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_identifier_GID-39085_Type-118012\",
+                    \"DomainLabel\": \"etype:Apartment_GID-145481 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"stampa-annuario\"},
+                    {\"columnName\": \"prezzi-localita\"},
+                    {\"columnName\": \"tipo-extraalbergo\"},
+                    {\"columnName\": \"prezzi-extraalbergo\"},
+                    {\"columnName\": \"lista-servizi-accessori\"},
+                    {\"columnName\": \"servizio\"},
+                    {\"columnName\": \"descrizione\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Apartment_GID-14548\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Apartment_GID-145481\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_services_GID-3011_Type-118012\",
+                    \"DomainLabel\": \"etype:Apartment_GID-145481\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"lista-servizi-accessori\\\"},{\\\"columnName\\\":\\\"servizio\\\"},{\\\"columnName\\\":\\\"descrizione\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"lista-servizi-accessori\\\"},{\\\"columnName\\\":\\\"servizio\\\"},{\\\"columnName\\\":\\\"descrizione\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"stampa-annuario\"},
+                    {\"columnName\": \"prezzi-localita\"},
+                    {\"columnName\": \"tipo-extraalbergo\"},
+                    {\"columnName\": \"prezzi-extraalbergo\"},
+                    {\"columnName\": \"prezzi-eea\"},
+                    {\"columnName\": \"comune\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Street_address_GID-45807\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Street_address_GID-458071\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_city_GID-45969_Type-45807\",
+                    \"DomainLabel\": \"etype:Street_address_GID-458071\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-eea\\\"},{\\\"columnName\\\":\\\"comune\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-eea\\\"},{\\\"columnName\\\":\\\"comune\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"stampa-annuario\"},
+                    {\"columnName\": \"prezzi-localita\"},
+                    {\"columnName\": \"tipo-extraalbergo\"},
+                    {\"columnName\": \"prezzi-extraalbergo\"},
+                    {\"columnName\": \"prezzi-eea\"},
+                    {\"columnName\": \"indirizzo\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Street_address_GID-45807\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Street_address_GID-458071\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_street_name_GID-33999_Type-45807\",
+                    \"DomainLabel\": \"etype:Street_address_GID-458071\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-eea\\\"},{\\\"columnName\\\":\\\"indirizzo\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-eea\\\"},{\\\"columnName\\\":\\\"indirizzo\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"stampa-annuario\"},
+                    {\"columnName\": \"prezzi-localita\"},
+                    {\"columnName\": \"tipo-extraalbergo\"},
+                    {\"columnName\": \"prezzi-extraalbergo\"},
+                    {\"columnName\": \"prezzi-eea\"},
+                    {\"columnName\": \"lista-posti-letto\"},
+                    {\"columnName\": \"postiletto\"},
+                    {\"columnName\": \"numero-posti\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Room_option_GID-120048\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Room_option_GID-1200481\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_capacity_GID-73259_Type-120048\",
+                    \"DomainLabel\": \"etype:Room_option_GID-1200481 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-eea\\\"},{\\\"columnName\\\":\\\"lista-posti-letto\\\"},{\\\"columnName\\\":\\\"postiletto\\\"},{\\\"columnName\\\":\\\"numero-posti\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-eea\\\"},{\\\"columnName\\\":\\\"lista-posti-letto\\\"},{\\\"columnName\\\":\\\"postiletto\\\"},{\\\"columnName\\\":\\\"numero-posti\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"stampa-annuario\"},
+                    {\"columnName\": \"prezzi-localita\"},
+                    {\"columnName\": \"tipo-extraalbergo\"},
+                    {\"columnName\": \"prezzi-extraalbergo\"},
+                    {\"columnName\": \"prezzi-eea\"},
+                    {\"columnName\": \"lista-posti-letto\"},
+                    {\"columnName\": \"postiletto\"},
+                    {\"columnName\": \"prezzo-tipologia\"},
+                    {\"columnName\": \"prezzo\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Room_option_GID-120048\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Room_option_GID-1200481\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_price_GID-70571_Type-120048\",
+                    \"DomainLabel\": \"etype:Room_option_GID-1200481\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-eea\\\"},{\\\"columnName\\\":\\\"lista-posti-letto\\\"},{\\\"columnName\\\":\\\"postiletto\\\"},{\\\"columnName\\\":\\\"prezzo-tipologia\\\"},{\\\"columnName\\\":\\\"prezzo\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-eea\\\"},{\\\"columnName\\\":\\\"lista-posti-letto\\\"},{\\\"columnName\\\":\\\"postiletto\\\"},{\\\"columnName\\\":\\\"prezzo-tipologia\\\"},{\\\"columnName\\\":\\\"prezzo\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"stampa-annuario\"},
+                    {\"columnName\": \"prezzi-localita\"},
+                    {\"columnName\": \"tipo-extraalbergo\"},
+                    {\"columnName\": \"prezzi-extraalbergo\"},
+                    {\"columnName\": \"prezzi-eea\"},
+                    {\"columnName\": \"lista-posti-letto\"},
+                    {\"columnName\": \"postiletto\"},
+                    {\"columnName\": \"prezzo-tipologia\"},
+                    {\"columnName\": \"tipologia-unita\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Room_option_GID-120048\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Room_option_GID-1200481\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_name_GID-2_Type-120048\",
+                    \"DomainLabel\": \"etype:Room_option_GID-1200481\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-eea\\\"},{\\\"columnName\\\":\\\"lista-posti-letto\\\"},{\\\"columnName\\\":\\\"postiletto\\\"},{\\\"columnName\\\":\\\"prezzo-tipologia\\\"},{\\\"columnName\\\":\\\"tipologia-unita\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-eea\\\"},{\\\"columnName\\\":\\\"lista-posti-letto\\\"},{\\\"columnName\\\":\\\"postiletto\\\"},{\\\"columnName\\\":\\\"prezzo-tipologia\\\"},{\\\"columnName\\\":\\\"tipologia-unita\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"stampa-annuario\"},
+                    {\"columnName\": \"prezzi-localita\"},
+                    {\"columnName\": \"tipo-extraalbergo\"},
+                    {\"columnName\": \"prezzi-extraalbergo\"},
+                    {\"columnName\": \"recapito-telefono\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Contact_information_GID-120061\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Contact_information_GID-1200611\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_phone_number_GID-34494_Type-120061\",
+                    \"DomainLabel\": \"etype:Contact_information_GID-1200611 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"recapito-telefono\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"recapito-telefono\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"stampa-annuario\"},
+                    {\"columnName\": \"prezzi-localita\"},
+                    {\"columnName\": \"tipo-extraalbergo\"},
+                    {\"columnName\": \"prezzi-extraalbergo\"},
+                    {\"columnName\": \"recapito-email\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Contact_information_GID-120061\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Contact_information_GID-1200611\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_email_address_GID-120067_Type-120061\",
+                    \"DomainLabel\": \"etype:Contact_information_GID-1200611\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"recapito-email\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"recapito-email\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"stampa-annuario\"},
+                    {\"columnName\": \"prezzi-localita\"},
+                    {\"columnName\": \"tipo-extraalbergo\"},
+                    {\"columnName\": \"prezzi-extraalbergo\"},
+                    {\"columnName\": \"recapito-www\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://knowdive.disi.unitn.it/etype#Contact_information_GID-120061\",
+                    \"DomainId\": \"http://knowdive.disi.unitn.it/etype#Contact_information_GID-1200611\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://knowdive.disi.unitn.it/etype#has_email_address_GID-120067_Type-120061\",
+                    \"DomainLabel\": \"etype:Contact_information_GID-1200611\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"recapito-www\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stampa-annuario\\\"},{\\\"columnName\\\":\\\"prezzi-localita\\\"},{\\\"columnName\\\":\\\"tipo-extraalbergo\\\"},{\\\"columnName\\\":\\\"prezzi-extraalbergo\\\"},{\\\"columnName\\\":\\\"recapito-www\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Place_GID-459111\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_place_GID-45911_Type-118012\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Place_GID-45911\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Apartment_GID-145481\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Apartment_GID-14548\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Street_address_GID-458071\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_street_address_GID-45807_Type-45911\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Street_address_GID-45807\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Place_GID-459111\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Place_GID-45911\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Room_option_GID-1200481\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_room_option_GID-120048_Type-118012\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Room_option_GID-120048\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Apartment_GID-145481\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Apartment_GID-14548\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://knowdive.disi.unitn.it/etype#Contact_information_GID-1200611\",
+                    \"edgeId\": \"http://knowdive.disi.unitn.it/etype#has_contact_information_GID-120061_Type-118012\",
+                    \"edgeTargetUri\": \"http://knowdive.disi.unitn.it/etype#Contact_information_GID-120061\",
+                    \"edgeSourceId\": \"http://knowdive.disi.unitn.it/etype#Apartment_GID-145481\",
+                    \"edgeSourceUri\": \"http://knowdive.disi.unitn.it/etype#Apartment_GID-14548\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_3f10a2ec-237b-4386-8340-dc6fe9d88ef3 a rr:TriplesMap .
+
+_:node1epmqi78tx1 km-dev:hasTriplesMap km-dev:TriplesMap_3f10a2ec-237b-4386-8340-dc6fe9d88ef3 .
+
+km-dev:TriplesMap_3f10a2ec-237b-4386-8340-dc6fe9d88ef3 km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx2 rr:tableName "Apartments-372.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasLogicalTable _:node1epmqi78tx2 .
+
+km-dev:TriplesMap_3f10a2ec-237b-4386-8340-dc6fe9d88ef3 rr:logicalTable _:node1epmqi78tx2 ;
+	rr:subjectMap _:node1epmqi78tx3 .
+
+_:node1epmqi78tx1 km-dev:hasSubjectMap _:node1epmqi78tx3 .
+
+_:node1epmqi78tx3 km-dev:isPartOfMapping _:node1epmqi78tx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Apartment_GID-145481" ;
+	rr:class etype:Apartment_GID-14548 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Apartment_GID-145481" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_c645ecea-a3f7-4eb5-b799-df8e4bf4871b rr:predicate etype:has_contact_information_GID-120061_Type-118012 .
+
+km-dev:RefObjectMap_3862a30c-0f2c-4998-a4f4-e418ea43cdb0 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_8bea4efd-8b8a-4eb6-bf8f-4b207c17f9af ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasObjectMap km-dev:RefObjectMap_3862a30c-0f2c-4998-a4f4-e418ea43cdb0 .
+
+km-dev:PredicateObjectMap_c645ecea-a3f7-4eb5-b799-df8e4bf4871b rr:objectMap km-dev:RefObjectMap_3862a30c-0f2c-4998-a4f4-e418ea43cdb0 .
+
+km-dev:TriplesMap_3f10a2ec-237b-4386-8340-dc6fe9d88ef3 rr:predicateObjectMap km-dev:PredicateObjectMap_c645ecea-a3f7-4eb5-b799-df8e4bf4871b .
+
+km-dev:PredicateObjectMap_c645ecea-a3f7-4eb5-b799-df8e4bf4871b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c645ecea-a3f7-4eb5-b799-df8e4bf4871b .
+
+km-dev:PredicateObjectMap_844c97af-64bd-4747-84f8-6efe688e86cb rr:predicate etype:has_place_GID-45911_Type-118012 .
+
+km-dev:RefObjectMap_05ba0b0a-f485-4630-a9ba-5a7f4ecf2d80 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_b11e82b0-dc50-4822-97d1-945093c83af0 ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasObjectMap km-dev:RefObjectMap_05ba0b0a-f485-4630-a9ba-5a7f4ecf2d80 .
+
+km-dev:PredicateObjectMap_844c97af-64bd-4747-84f8-6efe688e86cb rr:objectMap km-dev:RefObjectMap_05ba0b0a-f485-4630-a9ba-5a7f4ecf2d80 .
+
+km-dev:TriplesMap_3f10a2ec-237b-4386-8340-dc6fe9d88ef3 rr:predicateObjectMap km-dev:PredicateObjectMap_844c97af-64bd-4747-84f8-6efe688e86cb .
+
+km-dev:PredicateObjectMap_844c97af-64bd-4747-84f8-6efe688e86cb a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_844c97af-64bd-4747-84f8-6efe688e86cb .
+
+km-dev:PredicateObjectMap_87ab1fea-3afb-4617-8edf-da278c137298 rr:predicate etype:has_room_option_GID-120048_Type-118012 .
+
+km-dev:RefObjectMap_acf680e3-2bf9-4fd2-883b-6e74488160ee a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_73fcaae8-6ba5-42ce-b10f-b158a0ca4bf5 ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasObjectMap km-dev:RefObjectMap_acf680e3-2bf9-4fd2-883b-6e74488160ee .
+
+km-dev:PredicateObjectMap_87ab1fea-3afb-4617-8edf-da278c137298 rr:objectMap km-dev:RefObjectMap_acf680e3-2bf9-4fd2-883b-6e74488160ee .
+
+km-dev:TriplesMap_3f10a2ec-237b-4386-8340-dc6fe9d88ef3 rr:predicateObjectMap km-dev:PredicateObjectMap_87ab1fea-3afb-4617-8edf-da278c137298 .
+
+km-dev:PredicateObjectMap_87ab1fea-3afb-4617-8edf-da278c137298 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_87ab1fea-3afb-4617-8edf-da278c137298 .
+
+km-dev:PredicateObjectMap_e4678e6a-688c-4874-9fe5-ba46993a9b02 rr:predicate etype:has_identifier_GID-39085_Type-118012 .
+
+_:node1epmqi78tx4 rr:column "[\"stampa-annuario\",\"prezzi-localita\",\"tipo-extraalbergo\",\"prezzi-extraalbergo\",\"id\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasObjectMap _:node1epmqi78tx4 .
+
+km-dev:PredicateObjectMap_e4678e6a-688c-4874-9fe5-ba46993a9b02 rr:objectMap _:node1epmqi78tx4 .
+
+km-dev:TriplesMap_3f10a2ec-237b-4386-8340-dc6fe9d88ef3 rr:predicateObjectMap km-dev:PredicateObjectMap_e4678e6a-688c-4874-9fe5-ba46993a9b02 .
+
+km-dev:PredicateObjectMap_e4678e6a-688c-4874-9fe5-ba46993a9b02 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e4678e6a-688c-4874-9fe5-ba46993a9b02 .
+
+km-dev:PredicateObjectMap_a750ef0f-17a9-4c37-a111-e4cd7a6373d5 rr:predicate etype:has_services_GID-3011_Type-118012 .
+
+_:node1epmqi78tx5 rr:column "[\"stampa-annuario\",\"prezzi-localita\",\"tipo-extraalbergo\",\"prezzi-extraalbergo\",\"lista-servizi-accessori\",\"servizio\",\"descrizione\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasObjectMap _:node1epmqi78tx5 .
+
+km-dev:PredicateObjectMap_a750ef0f-17a9-4c37-a111-e4cd7a6373d5 rr:objectMap _:node1epmqi78tx5 .
+
+km-dev:TriplesMap_3f10a2ec-237b-4386-8340-dc6fe9d88ef3 rr:predicateObjectMap km-dev:PredicateObjectMap_a750ef0f-17a9-4c37-a111-e4cd7a6373d5 .
+
+km-dev:PredicateObjectMap_a750ef0f-17a9-4c37-a111-e4cd7a6373d5 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a750ef0f-17a9-4c37-a111-e4cd7a6373d5 .
+
+km-dev:TriplesMap_8bea4efd-8b8a-4eb6-bf8f-4b207c17f9af a rr:TriplesMap .
+
+_:node1epmqi78tx1 km-dev:hasTriplesMap km-dev:TriplesMap_8bea4efd-8b8a-4eb6-bf8f-4b207c17f9af .
+
+km-dev:TriplesMap_8bea4efd-8b8a-4eb6-bf8f-4b207c17f9af km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx6 rr:tableName "Apartments-372.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasLogicalTable _:node1epmqi78tx6 .
+
+km-dev:TriplesMap_8bea4efd-8b8a-4eb6-bf8f-4b207c17f9af rr:logicalTable _:node1epmqi78tx6 ;
+	rr:subjectMap _:node1epmqi78tx7 .
+
+_:node1epmqi78tx1 km-dev:hasSubjectMap _:node1epmqi78tx7 .
+
+_:node1epmqi78tx7 km-dev:isPartOfMapping _:node1epmqi78tx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Contact_information_GID-1200611" ;
+	rr:class etype:Contact_information_GID-120061 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Contact_information_GID-1200611" .
+
+km-dev:PredicateObjectMap_2f9d6f05-f3e8-4f58-b6a0-59ffae7f9095 rr:predicate etype:has_email_address_GID-120067_Type-120061 .
+
+_:node1epmqi78tx8 rr:column "[\"stampa-annuario\",\"prezzi-localita\",\"tipo-extraalbergo\",\"prezzi-extraalbergo\",\"recapito-www\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasObjectMap _:node1epmqi78tx8 .
+
+km-dev:PredicateObjectMap_2f9d6f05-f3e8-4f58-b6a0-59ffae7f9095 rr:objectMap _:node1epmqi78tx8 .
+
+km-dev:TriplesMap_8bea4efd-8b8a-4eb6-bf8f-4b207c17f9af rr:predicateObjectMap km-dev:PredicateObjectMap_2f9d6f05-f3e8-4f58-b6a0-59ffae7f9095 .
+
+km-dev:PredicateObjectMap_2f9d6f05-f3e8-4f58-b6a0-59ffae7f9095 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2f9d6f05-f3e8-4f58-b6a0-59ffae7f9095 .
+
+km-dev:PredicateObjectMap_b53501bc-bde8-4ffc-8721-207d8da5ca15 rr:predicate etype:has_email_address_GID-120067_Type-120061 .
+
+_:node1epmqi78tx9 rr:column "[\"stampa-annuario\",\"prezzi-localita\",\"tipo-extraalbergo\",\"prezzi-extraalbergo\",\"recapito-email\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasObjectMap _:node1epmqi78tx9 .
+
+km-dev:PredicateObjectMap_b53501bc-bde8-4ffc-8721-207d8da5ca15 rr:objectMap _:node1epmqi78tx9 .
+
+km-dev:TriplesMap_8bea4efd-8b8a-4eb6-bf8f-4b207c17f9af rr:predicateObjectMap km-dev:PredicateObjectMap_b53501bc-bde8-4ffc-8721-207d8da5ca15 .
+
+km-dev:PredicateObjectMap_b53501bc-bde8-4ffc-8721-207d8da5ca15 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b53501bc-bde8-4ffc-8721-207d8da5ca15 .
+
+km-dev:PredicateObjectMap_84f5ae01-ed27-4bcb-8ad3-c685225290d4 rr:predicate etype:has_phone_number_GID-34494_Type-120061 .
+
+_:node1epmqi78tx10 rr:column "[\"stampa-annuario\",\"prezzi-localita\",\"tipo-extraalbergo\",\"prezzi-extraalbergo\",\"recapito-telefono\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasObjectMap _:node1epmqi78tx10 .
+
+km-dev:PredicateObjectMap_84f5ae01-ed27-4bcb-8ad3-c685225290d4 rr:objectMap _:node1epmqi78tx10 .
+
+km-dev:TriplesMap_8bea4efd-8b8a-4eb6-bf8f-4b207c17f9af rr:predicateObjectMap km-dev:PredicateObjectMap_84f5ae01-ed27-4bcb-8ad3-c685225290d4 .
+
+km-dev:PredicateObjectMap_84f5ae01-ed27-4bcb-8ad3-c685225290d4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_84f5ae01-ed27-4bcb-8ad3-c685225290d4 .
+
+km-dev:TriplesMap_b11e82b0-dc50-4822-97d1-945093c83af0 a rr:TriplesMap .
+
+_:node1epmqi78tx1 km-dev:hasTriplesMap km-dev:TriplesMap_b11e82b0-dc50-4822-97d1-945093c83af0 .
+
+km-dev:TriplesMap_b11e82b0-dc50-4822-97d1-945093c83af0 km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx11 rr:tableName "Apartments-372.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasLogicalTable _:node1epmqi78tx11 .
+
+km-dev:TriplesMap_b11e82b0-dc50-4822-97d1-945093c83af0 rr:logicalTable _:node1epmqi78tx11 ;
+	rr:subjectMap _:node1epmqi78tx12 .
+
+_:node1epmqi78tx1 km-dev:hasSubjectMap _:node1epmqi78tx12 .
+
+_:node1epmqi78tx12 km-dev:isPartOfMapping _:node1epmqi78tx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Place_GID-459111" ;
+	rr:class etype:Place_GID-45911 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Place_GID-459111" .
+
+km-dev:PredicateObjectMap_f2819852-30ef-4d68-b1ab-f2f4f63d68e2 rr:predicate etype:has_street_address_GID-45807_Type-45911 .
+
+km-dev:RefObjectMap_5f5d655a-e041-4829-a681-08f3a3d6f9db a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_5e4bf2b2-a87d-4729-8096-d8d2a8857fa9 ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasObjectMap km-dev:RefObjectMap_5f5d655a-e041-4829-a681-08f3a3d6f9db .
+
+km-dev:PredicateObjectMap_f2819852-30ef-4d68-b1ab-f2f4f63d68e2 rr:objectMap km-dev:RefObjectMap_5f5d655a-e041-4829-a681-08f3a3d6f9db .
+
+km-dev:TriplesMap_b11e82b0-dc50-4822-97d1-945093c83af0 rr:predicateObjectMap km-dev:PredicateObjectMap_f2819852-30ef-4d68-b1ab-f2f4f63d68e2 .
+
+km-dev:PredicateObjectMap_f2819852-30ef-4d68-b1ab-f2f4f63d68e2 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f2819852-30ef-4d68-b1ab-f2f4f63d68e2 .
+
+km-dev:PredicateObjectMap_e26850cd-5e07-4910-83be-bc1c9f5675e0 rr:predicate etype:has_elevation_GID-28270_Type-132 .
+
+_:node1epmqi78tx13 rr:column "[\"stampa-annuario\",\"prezzi-localita\",\"altitudine-Localita\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasObjectMap _:node1epmqi78tx13 .
+
+km-dev:PredicateObjectMap_e26850cd-5e07-4910-83be-bc1c9f5675e0 rr:objectMap _:node1epmqi78tx13 .
+
+km-dev:TriplesMap_b11e82b0-dc50-4822-97d1-945093c83af0 rr:predicateObjectMap km-dev:PredicateObjectMap_e26850cd-5e07-4910-83be-bc1c9f5675e0 .
+
+km-dev:PredicateObjectMap_e26850cd-5e07-4910-83be-bc1c9f5675e0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e26850cd-5e07-4910-83be-bc1c9f5675e0 .
+
+km-dev:TriplesMap_73fcaae8-6ba5-42ce-b10f-b158a0ca4bf5 a rr:TriplesMap .
+
+_:node1epmqi78tx1 km-dev:hasTriplesMap km-dev:TriplesMap_73fcaae8-6ba5-42ce-b10f-b158a0ca4bf5 .
+
+km-dev:TriplesMap_73fcaae8-6ba5-42ce-b10f-b158a0ca4bf5 km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx14 rr:tableName "Apartments-372.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasLogicalTable _:node1epmqi78tx14 .
+
+km-dev:TriplesMap_73fcaae8-6ba5-42ce-b10f-b158a0ca4bf5 rr:logicalTable _:node1epmqi78tx14 ;
+	rr:subjectMap _:node1epmqi78tx15 .
+
+_:node1epmqi78tx1 km-dev:hasSubjectMap _:node1epmqi78tx15 .
+
+_:node1epmqi78tx15 km-dev:isPartOfMapping _:node1epmqi78tx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Room_option_GID-1200481" ;
+	rr:class etype:Room_option_GID-120048 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Room_option_GID-1200481" .
+
+km-dev:PredicateObjectMap_18df7c5a-529c-4bd1-9fea-d437e0caf9b1 rr:predicate etype:has_price_GID-70571_Type-120048 .
+
+_:node1epmqi78tx16 rr:column "[\"stampa-annuario\",\"prezzi-localita\",\"tipo-extraalbergo\",\"prezzi-extraalbergo\",\"prezzi-eea\",\"lista-posti-letto\",\"postiletto\",\"prezzo-tipologia\",\"prezzo\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasObjectMap _:node1epmqi78tx16 .
+
+km-dev:PredicateObjectMap_18df7c5a-529c-4bd1-9fea-d437e0caf9b1 rr:objectMap _:node1epmqi78tx16 .
+
+km-dev:TriplesMap_73fcaae8-6ba5-42ce-b10f-b158a0ca4bf5 rr:predicateObjectMap km-dev:PredicateObjectMap_18df7c5a-529c-4bd1-9fea-d437e0caf9b1 .
+
+km-dev:PredicateObjectMap_18df7c5a-529c-4bd1-9fea-d437e0caf9b1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_18df7c5a-529c-4bd1-9fea-d437e0caf9b1 .
+
+km-dev:PredicateObjectMap_b776f4f4-a2b1-4952-bb73-33c277e434e3 rr:predicate etype:has_name_GID-2_Type-120048 .
+
+_:node1epmqi78tx17 rr:column "[\"stampa-annuario\",\"prezzi-localita\",\"tipo-extraalbergo\",\"prezzi-extraalbergo\",\"prezzi-eea\",\"lista-posti-letto\",\"postiletto\",\"prezzo-tipologia\",\"tipologia-unita\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasObjectMap _:node1epmqi78tx17 .
+
+km-dev:PredicateObjectMap_b776f4f4-a2b1-4952-bb73-33c277e434e3 rr:objectMap _:node1epmqi78tx17 .
+
+km-dev:TriplesMap_73fcaae8-6ba5-42ce-b10f-b158a0ca4bf5 rr:predicateObjectMap km-dev:PredicateObjectMap_b776f4f4-a2b1-4952-bb73-33c277e434e3 .
+
+km-dev:PredicateObjectMap_b776f4f4-a2b1-4952-bb73-33c277e434e3 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b776f4f4-a2b1-4952-bb73-33c277e434e3 .
+
+km-dev:PredicateObjectMap_a4f30c16-71af-4dca-9f99-43ef565c7107 rr:predicate etype:has_capacity_GID-73259_Type-120048 .
+
+_:node1epmqi78tx18 rr:column "[\"stampa-annuario\",\"prezzi-localita\",\"tipo-extraalbergo\",\"prezzi-extraalbergo\",\"prezzi-eea\",\"lista-posti-letto\",\"postiletto\",\"numero-posti\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasObjectMap _:node1epmqi78tx18 .
+
+km-dev:PredicateObjectMap_a4f30c16-71af-4dca-9f99-43ef565c7107 rr:objectMap _:node1epmqi78tx18 .
+
+km-dev:TriplesMap_73fcaae8-6ba5-42ce-b10f-b158a0ca4bf5 rr:predicateObjectMap km-dev:PredicateObjectMap_a4f30c16-71af-4dca-9f99-43ef565c7107 .
+
+km-dev:PredicateObjectMap_a4f30c16-71af-4dca-9f99-43ef565c7107 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a4f30c16-71af-4dca-9f99-43ef565c7107 .
+
+km-dev:TriplesMap_5e4bf2b2-a87d-4729-8096-d8d2a8857fa9 a rr:TriplesMap .
+
+_:node1epmqi78tx1 km-dev:hasTriplesMap km-dev:TriplesMap_5e4bf2b2-a87d-4729-8096-d8d2a8857fa9 .
+
+km-dev:TriplesMap_5e4bf2b2-a87d-4729-8096-d8d2a8857fa9 km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx19 rr:tableName "Apartments-372.xml" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasLogicalTable _:node1epmqi78tx19 .
+
+km-dev:TriplesMap_5e4bf2b2-a87d-4729-8096-d8d2a8857fa9 rr:logicalTable _:node1epmqi78tx19 ;
+	rr:subjectMap _:node1epmqi78tx20 .
+
+_:node1epmqi78tx1 km-dev:hasSubjectMap _:node1epmqi78tx20 .
+
+_:node1epmqi78tx20 km-dev:isPartOfMapping _:node1epmqi78tx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://knowdive.disi.unitn.it/etype#Street_address_GID-458071" ;
+	rr:class etype:Street_address_GID-45807 ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "etype:Street_address_GID-458071" .
+
+km-dev:PredicateObjectMap_114676d5-2b26-46b3-9427-aba9e87b7387 rr:predicate etype:has_city_GID-45969_Type-45807 .
+
+_:node1epmqi78tx21 rr:column "[\"stampa-annuario\",\"prezzi-localita\",\"tipo-extraalbergo\",\"prezzi-extraalbergo\",\"prezzi-eea\",\"comune\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasObjectMap _:node1epmqi78tx21 .
+
+km-dev:PredicateObjectMap_114676d5-2b26-46b3-9427-aba9e87b7387 rr:objectMap _:node1epmqi78tx21 .
+
+km-dev:TriplesMap_5e4bf2b2-a87d-4729-8096-d8d2a8857fa9 rr:predicateObjectMap km-dev:PredicateObjectMap_114676d5-2b26-46b3-9427-aba9e87b7387 .
+
+km-dev:PredicateObjectMap_114676d5-2b26-46b3-9427-aba9e87b7387 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_114676d5-2b26-46b3-9427-aba9e87b7387 .
+
+km-dev:PredicateObjectMap_ba8a0b8a-1806-47b1-a105-c40845e3cd06 rr:predicate etype:has_street_name_GID-33999_Type-45807 .
+
+_:node1epmqi78tx22 rr:column "[\"stampa-annuario\",\"prezzi-localita\",\"tipo-extraalbergo\",\"prezzi-extraalbergo\",\"prezzi-eea\",\"indirizzo\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasObjectMap _:node1epmqi78tx22 .
+
+km-dev:PredicateObjectMap_ba8a0b8a-1806-47b1-a105-c40845e3cd06 rr:objectMap _:node1epmqi78tx22 .
+
+km-dev:TriplesMap_5e4bf2b2-a87d-4729-8096-d8d2a8857fa9 rr:predicateObjectMap km-dev:PredicateObjectMap_ba8a0b8a-1806-47b1-a105-c40845e3cd06 .
+
+km-dev:PredicateObjectMap_ba8a0b8a-1806-47b1-a105-c40845e3cd06 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ba8a0b8a-1806-47b1-a105-c40845e3cd06 .
+
+km-dev:PredicateObjectMap_362184e2-3787-4e96-bd56-88bdcb64d844 rr:predicate etype:has_cap_GID-120109_Type-45807 .
+
+_:node1epmqi78tx23 rr:column "[\"stampa-annuario\",\"prezzi-localita\",\"cap-Localita\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasObjectMap _:node1epmqi78tx23 .
+
+km-dev:PredicateObjectMap_362184e2-3787-4e96-bd56-88bdcb64d844 rr:objectMap _:node1epmqi78tx23 .
+
+km-dev:TriplesMap_5e4bf2b2-a87d-4729-8096-d8d2a8857fa9 rr:predicateObjectMap km-dev:PredicateObjectMap_362184e2-3787-4e96-bd56-88bdcb64d844 .
+
+km-dev:PredicateObjectMap_362184e2-3787-4e96-bd56-88bdcb64d844 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1epmqi78tx1 .
+
+_:node1epmqi78tx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_362184e2-3787-4e96-bd56-88bdcb64d844 .
