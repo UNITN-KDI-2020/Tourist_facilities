@@ -1,8 +1,8 @@
 {
 "Creator": "tourist-facilities",
 "CreationDate": "05/10/2020",
-"LKG" : "",//TODO
-"DKG" : "",//TODO
+"LKG" : "https://github.com/UNITN-KDI-2020/Tourist_facilities/blob/master/dataset/final%20results/metadata/tourist-facilities.lkg",
+"DKG" : "https://github.com/UNITN-KDI-2020/Tourist_facilities/blob/master/dataset/final%20results/metadata/tourist-facilities.dkg",
 "EntityTypes" : [
     "http://knowdive.disi.unitn.it/etype#Action_kind_GID-120018", 
     "http://knowdive.disi.unitn.it/etype#Alpine_dairy_GID-120097", 

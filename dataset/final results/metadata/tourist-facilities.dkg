@@ -1,9 +1,16 @@
 {
 "Creator": "tourist-facilities",
 "CreationDate": "17/12/2020",
-"InputFiles" : [""],
-"SKG" : "",
-"LKG" : "",
+"InputFiles" : [
+    "https://github.com/UNITN-KDI-2020/Tourist_facilities/blob/master/dataset/final%20results/metadata/tourist-facilities-snowshoe-trails-1.in"
+    "https://github.com/UNITN-KDI-2020/Tourist_facilities/blob/master/dataset/final%20results/metadata/tourist-facilities-lakes-1.in"
+    "https://github.com/UNITN-KDI-2020/Tourist_facilities/blob/master/dataset/final%20results/metadata/tourist-facilities-hovel-1.in.json"
+    "https://github.com/UNITN-KDI-2020/Tourist_facilities/blob/master/dataset/final%20results/metadata/tourist-facilities-hiking-trails-2.in"
+    "https://github.com/UNITN-KDI-2020/Tourist_facilities/blob/master/dataset/final%20results/metadata/tourist-facilities-hiking-trails-1.in"
+    "https://github.com/UNITN-KDI-2020/Tourist_facilities/blob/master/dataset/final%20results/metadata/tourist-facilities-biking-trails-1.in"
+],
+"SKG" : "https://github.com/UNITN-KDI-2020/Tourist_facilities/blob/master/dataset/final%20results/metadata/tourist-facilities.skg",
+"LKG" : "https://github.com/UNITN-KDI-2020/Tourist_facilities/blob/master/dataset/final%20results/metadata/tourist-facilities.dkg",
 "Project" : "KDI2020-tourist-facilities.kdi",
 "NumberEntities": {
     "http://knowdive.disi.unitn.it/etype#Lake_GID-49734": 480,

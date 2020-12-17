@@ -1,8 +1,8 @@
 {
 "Creator": "tourist-facilities",
 "CreationDate": "17/12/2020",
-"SKG": "",
-"DKG" : "",
+"SKG": "https://github.com/UNITN-KDI-2020/Tourist_facilities/blob/master/dataset/final%20results/metadata/tourist-facilities.skg",
+"DKG" : "https://github.com/UNITN-KDI-2020/Tourist_facilities/blob/master/dataset/final%20results/metadata/tourist-facilities.dkg",
 "Language" : "eng",
 "Words": {"eng": [
     "creation time",
