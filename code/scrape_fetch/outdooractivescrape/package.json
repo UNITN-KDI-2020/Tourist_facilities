@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "he": "^1.2.0",
-    "jsdom": "^16.4.0",
+    "jsdom": "^16.5.0",
     "node-fetch": "^2.6.1",
     "replaceall": "^0.1.6"
   }
